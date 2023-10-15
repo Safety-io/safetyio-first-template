@@ -46,9 +46,9 @@
                     class="border-2 rounded-full bg-secondary text-black h-12 w-12 flex justify-center items-center mb-3">
                     1
                 </div>
-                <h3 class="font-montserrat font-medium text-xl mb-2">Le projet</h3>
+                <h3 class="font-montserrat font-medium text-xl mb-2">Confidentialité</h3>
                 <p class="text-center font-montserrat">
-                    Notre projet consiste à offrir des solutions performantes de sécurisation des systèmes d'information ainsi que de leurs données.
+                    les données et les systèmes doivent être protégés contre l'accès non autorisé
                 </p>
             </div>
             <div class="flex-1 mx-8 flex flex-col items-center my-4">
@@ -56,9 +56,9 @@
                     class="border-2 rounded-full bg-secondary text-black h-12 w-12 flex justify-center items-center mb-3">
                     2
                 </div>
-                <h3 class="font-montserrat font-medium text-xl mb-2">L'importance de la sécurité des systèmes d'information</h3>
+                <h3 class="font-montserrat font-medium text-xl mb-2">Évolutivité</h3>
                 <p class="text-center font-montserrat">
-                    En tant qu'entreprise, vos données confidentielles sont votre patrimoine. La sécurité des systèmes d'information protège votre réputation et votre chiffre d'affaires.
+                    la capacité d'un système à être mis à jour et étendu pour répondre aux besoins changeants
                 </p>
             </div>
             <div class="flex-1 mx-8 flex flex-col items-center my-4">
