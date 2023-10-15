@@ -10,7 +10,7 @@
             <a class="growing-underline" href="{{ route('home') }}">Accueil</a>
         </li>
         <li class="growing-underline mx-3">
-            <a href="#">À propos</a>
+            <a href="{{ route('about') }}">À propos</a>
         </li>
         <li class="growing-underline mx-3">
             <a href="{{ route('team') }}">Equipe</a>

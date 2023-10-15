@@ -22,3 +22,6 @@ Route::get('/contact', function () {
 Route::get('/team', function () {
     return view('pages.team');
 })->name('team');
+Route::get('/about', function () {
+    return view('pages.about');
+})->name('about');
