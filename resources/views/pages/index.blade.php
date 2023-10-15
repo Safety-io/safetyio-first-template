@@ -77,13 +77,13 @@
     </section>
 
     <!-- ====== Blog Section Start -->
-    <section class="pt-5 pb-10 lg:pt-[120px] lg:pb-20">
+    <section class="py-6 w-full lg:px-48 md:px-12 px-4">
         <div class="container mx-auto">
             <div class="-mx-4 flex flex-wrap justify-center">
                 <div class="w-full px-4">
                     <div class="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
                         <h2
-                            class="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]"
+                            class="text-dark text-3xl font-bold sm:text-4xl md:text-[40px]"
                         >
                             Nos services
                         </h2>
@@ -101,17 +101,12 @@
                             />
                         </div>
                         <div>
-            <span
-                class="bg-primary mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white"
-            >
-              Dec 22, 2023
-            </span>
                             <h3>
                                 <a
-                                    href="javascript:void(0)"
+                                    href="#"
                                     class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                                 >
-                                    Meet AutoManage, the best AI management tools
+                                  Programmation
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
@@ -131,17 +126,12 @@
                             />
                         </div>
                         <div>
-            <span
-                class="bg-primary mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white"
-            >
-              Mar 15, 2023
-            </span>
                             <h3>
                                 <a
-                                    href="javascript:void(0)"
+                                    href="#"
                                     class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                                 >
-                                    How to earn more money as a wellness coach
+                                    Design
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
@@ -161,17 +151,12 @@
                             />
                         </div>
                         <div>
-            <span
-                class="bg-primary mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white"
-            >
-              Jan 05, 2023
-            </span>
                             <h3>
                                 <a
-                                    href="javascript:void(0)"
+                                    href="#"
                                     class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                                 >
-                                    The no-fuss guide to upselling and cross selling
+                                    réseau
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
