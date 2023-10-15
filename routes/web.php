@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');
+Route::get('/team', function () {
+    return view('pages.team');
+})->name('team');

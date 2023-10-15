@@ -12,15 +12,15 @@
               software
             </span>
             </h1>
-            <p class="font-pt-serif font-normal mb-7">
+            <p class="font-sans font-normal mb-7">
                 Nous proposons des services de sécurisation des systèmes d'information assortis d'audits de sécurité pour garantir une protection optimale de vos données de travail.
             </p>
             <div class="font-montserrat">
                 <button class="bg-black px-6 py-4 rounded-lg border-2 border-black border-solid text-white mr-2 mb-2">
-                    Call to action
+                    <a href="{{ route("team") }}">Team</a>
                 </button>
                 <button class="px-6 py-4 border-2 border-black border-solid rounded-lg">
-                    Secondary action
+                    <a href="{{ route("contact") }}">Contact</a>
                 </button>
             </div>
         </div>
