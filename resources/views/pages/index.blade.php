@@ -171,7 +171,6 @@
     </section>
     <!-- ====== Blog Section End -->
 
-
     <!-- FAQ  -->
     <section class="sectionSize items-start pt-8 md:pt-36 bg-black text-white">
         <div>
