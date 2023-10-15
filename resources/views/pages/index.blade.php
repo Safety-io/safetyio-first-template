@@ -38,7 +38,9 @@
     <!-- How it works -->
     <section class="bg-black text-white sectionSize">
         <div>
-            <h2 class="secondaryTitle bg-underline2 bg-100%">Introduction</h2>
+            <h1 class="font-roboto text-5xl font-bold mb-7">
+                Guide de SafetyIo
+            </h1>
         </div>
         <div class="flex flex-col md:flex-row">
             <div class="flex-1 mx-8 flex flex-col items-center my-4">
