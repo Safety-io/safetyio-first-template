@@ -66,9 +66,9 @@
                     class="border-2 rounded-full bg-secondary text-black h-12 w-12 flex justify-center items-center mb-3">
                     3
                 </div>
-                <h3 class="font-montserrat font-medium text-xl mb-2">d'audits de sécurité</h3>
+                <h3 class="font-montserrat font-medium text-xl mb-2">sécurité</h3>
                 <p class="text-center font-montserrat">
-                    Des audits réguliers permettent de s'assurer que vos systèmes d'information sont parfaitement sécurisés. Nous offrons des audits fiables et efficaces, effectués par une équipe d'experts qualifiés.
+                   La protection d'un système contre les menaces et les vulnérabilités connues et inconnues
                 </p>
             </div>
         </div>
