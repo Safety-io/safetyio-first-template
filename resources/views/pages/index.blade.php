@@ -76,101 +76,115 @@
         </div>
     </section>
 
-    <!-- ====== Cards Section Start -->
-    <section class="bg-[#F3F4F6] pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+    <!-- ====== Blog Section Start -->
+    <section class="pt-5 pb-10 lg:pt-[120px] lg:pb-20">
         <div class="container mx-auto">
+            <div class="-mx-4 flex flex-wrap justify-center">
+                <div class="w-full px-4">
+                    <div class="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
+                        <h2
+                            class="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]"
+                        >
+                            Nos services
+                        </h2>
+                    </div>
+                </div>
+            </div>
             <div class="-mx-4 flex flex-wrap">
-                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
-                    <div class="mb-10 overflow-hidden rounded-lg bg-white">
-                        <img
-                            src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-01.jpg"
-                            alt="image"
-                            class="w-full"
-                        />
-                        <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
+                <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                    <div class="mx-auto mb-10 max-w-[370px]">
+                        <div class="mb-8 overflow-hidden rounded">
+                            <img
+                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-01.jpg"
+                                alt="image"
+                                class="w-full"
+                            />
+                        </div>
+                        <div>
+            <span
+                class="bg-primary mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white"
+            >
+              Dec 22, 2023
+            </span>
                             <h3>
                                 <a
                                     href="javascript:void(0)"
-                                    class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                                    class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                                 >
-                                    50+ Best creative website themes & templates
+                                    Meet AutoManage, the best AI management tools
                                 </a>
                             </h3>
-                            <p class="text-body-color mb-7 text-base leading-relaxed">
-                                Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
-                                Lorem consectetur adipiscing elit.
+                            <p class="text-body-color text-base">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
                             </p>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
-                            >
-                                View Details
-                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
-                    <div class="mb-10 overflow-hidden rounded-lg bg-white">
-                        <img
-                            src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-02.jpg"
-                            alt="image"
-                            class="w-full"
-                        />
-                        <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
+                <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                    <div class="mx-auto mb-10 max-w-[370px]">
+                        <div class="mb-8 overflow-hidden rounded">
+                            <img
+                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-02.jpg"
+                                alt="image"
+                                class="w-full"
+                            />
+                        </div>
+                        <div>
+            <span
+                class="bg-primary mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white"
+            >
+              Mar 15, 2023
+            </span>
                             <h3>
                                 <a
                                     href="javascript:void(0)"
-                                    class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                                    class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                                 >
-                                    The ultimate UX and UI guide to card design
+                                    How to earn more money as a wellness coach
                                 </a>
                             </h3>
-                            <p class="text-body-color mb-7 text-base leading-relaxed">
-                                Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
-                                Lorem consectetur adipiscing elit.
+                            <p class="text-body-color text-base">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
                             </p>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
-                            >
-                                View Details
-                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
-                    <div class="mb-10 overflow-hidden rounded-lg bg-white">
-                        <img
-                            src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-03.jpg"
-                            alt="image"
-                            class="w-full"
-                        />
-                        <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
+                <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                    <div class="mx-auto mb-10 max-w-[370px]">
+                        <div class="mb-8 overflow-hidden rounded">
+                            <img
+                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-03.jpg"
+                                alt="image"
+                                class="w-full"
+                            />
+                        </div>
+                        <div>
+            <span
+                class="bg-primary mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white"
+            >
+              Jan 05, 2023
+            </span>
                             <h3>
                                 <a
                                     href="javascript:void(0)"
-                                    class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                                    class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                                 >
-                                    Creative Card Component designs graphic elements
+                                    The no-fuss guide to upselling and cross selling
                                 </a>
                             </h3>
-                            <p class="text-body-color mb-7 text-base leading-relaxed">
-                                Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
-                                Lorem consectetur adipiscing elit.
+                            <p class="text-body-color text-base">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
                             </p>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
-                            >
-                                View Details
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ====== Cards Section End -->
+    <!-- ====== Blog Section End -->
 
 
     <!-- FAQ  -->
