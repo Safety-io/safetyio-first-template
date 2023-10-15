@@ -78,7 +78,7 @@
                     <ul>
                         <li>
                             <a
-                                    href="#"
+                                    href="{{ route('home') }}"
                                     class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
                             >
                                 Accueil
@@ -86,7 +86,7 @@
                         </li>
                         <li>
                             <a
-                                    href="javascript:void(0)"
+                                    href="{{ route('about') }}"
                                     class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
                             >
                                 À propos
@@ -94,7 +94,7 @@
                         </li>
                         <li>
                             <a
-                                    href="javascript:void(0)"
+                                    href="{{ route('team') }}"
                                     class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
                             >
                                 Equipe
@@ -102,10 +102,18 @@
                         </li>
                         <li>
                             <a
-                                    href="#"
+                                    href="{{ route('blog')  }}"
                                     class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
                             >
                                 Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                    href="{{ route('contact')  }}"
+                                    class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                            >
+                                Contact
                             </a>
                         </li>
                     </ul>

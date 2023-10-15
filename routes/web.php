@@ -25,3 +25,6 @@ Route::get('/team', function () {
 Route::get('/about', function () {
     return view('pages.about');
 })->name('about');
+Route::get('/blog', function () {
+    return view('pages.blog');
+})->name('blog');
