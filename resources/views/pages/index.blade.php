@@ -17,7 +17,7 @@
             </p>
             <div class="font-montserrat">
                 <button class="bg-black px-6 py-4 rounded-lg border-2 border-black border-solid text-white mr-2 mb-2">
-                    <a href="{{ route("team") }}">Team</a>
+                    <a href="{{ route("team") }}">Equipe</a>
                 </button>
                 <button class="px-6 py-4 border-2 border-black border-solid rounded-lg">
                     <a href="{{ route("contact") }}">Contact</a>

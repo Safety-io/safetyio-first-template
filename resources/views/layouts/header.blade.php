@@ -7,13 +7,13 @@
     </a>
         <ul class="font-montserrat items-center hidden md:flex">
         <li class="mx-3 ">
-            <a class="growing-underline" href="#">Accueil</a>
+            <a class="growing-underline" href="{{ route('home') }}">Accueil</a>
         </li>
         <li class="growing-underline mx-3">
             <a href="#">À propos</a>
         </li>
         <li class="growing-underline mx-3">
-            <a href="#">Equipe</a>
+            <a href="{{ route('team') }}">Equipe</a>
         </li>
         <li class="growing-underline mx-3">
             <a href="#">Blog</a>

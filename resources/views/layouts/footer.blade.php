@@ -66,7 +66,7 @@
                                     href="#"
                                     class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
                             >
-                               Réseaux
+                               Réseau
                             </a>
                         </li>
                     </ul>
