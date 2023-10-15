@@ -28,3 +28,4 @@
         <img src="{{ Vite::asset("resources/assets/logos/Menu.svg")}}" alt="Menu icon" />
     </div>
 </nav>
+

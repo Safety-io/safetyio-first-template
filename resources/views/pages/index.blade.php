@@ -76,152 +76,102 @@
         </div>
     </section>
 
-    <!-- Features -->
-    <section class="sectionSize bg-secondary">
-        <div>
-            <h2 class="secondaryTitle bg-underline3 bg-100%">Features</h2>
-        </div>
-        <div class="md:grid md:grid-cols-2 md:grid-rows-2">
-
-            <div class="flex items-start font-montserrat my-6 mr-10">
-                <img src="{{ Vite::asset("resources/assets/logos/Heart.svg")}}" alt='' class="h-7 mr-4"/>
-                <div>
-                    <h3 class="font-semibold text-2xl">Services de sécurisation des systèmes d'information</h3>
-                    <p>
-                        Nous offrons des solutions performantes de sécurité des systèmes d'information grâce à l'utilisation de techniques pointues.
-                    </p>
+    <!-- ====== Cards Section Start -->
+    <section class="bg-[#F3F4F6] pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+        <div class="container mx-auto">
+            <div class="-mx-4 flex flex-wrap">
+                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="mb-10 overflow-hidden rounded-lg bg-white">
+                        <img
+                            src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-01.jpg"
+                            alt="image"
+                            class="w-full"
+                        />
+                        <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
+                            <h3>
+                                <a
+                                    href="javascript:void(0)"
+                                    class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                                >
+                                    50+ Best creative website themes & templates
+                                </a>
+                            </h3>
+                            <p class="text-body-color mb-7 text-base leading-relaxed">
+                                Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
+                                Lorem consectetur adipiscing elit.
+                            </p>
+                            <a
+                                href="javascript:void(0)"
+                                class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
+                            >
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="mb-10 overflow-hidden rounded-lg bg-white">
+                        <img
+                            src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-02.jpg"
+                            alt="image"
+                            class="w-full"
+                        />
+                        <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
+                            <h3>
+                                <a
+                                    href="javascript:void(0)"
+                                    class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                                >
+                                    The ultimate UX and UI guide to card design
+                                </a>
+                            </h3>
+                            <p class="text-body-color mb-7 text-base leading-relaxed">
+                                Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
+                                Lorem consectetur adipiscing elit.
+                            </p>
+                            <a
+                                href="javascript:void(0)"
+                                class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
+                            >
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="mb-10 overflow-hidden rounded-lg bg-white">
+                        <img
+                            src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-03.jpg"
+                            alt="image"
+                            class="w-full"
+                        />
+                        <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
+                            <h3>
+                                <a
+                                    href="javascript:void(0)"
+                                    class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                                >
+                                    Creative Card Component designs graphic elements
+                                </a>
+                            </h3>
+                            <p class="text-body-color mb-7 text-base leading-relaxed">
+                                Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
+                                Lorem consectetur adipiscing elit.
+                            </p>
+                            <a
+                                href="javascript:void(0)"
+                                class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
+                            >
+                                View Details
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="flex items-start font-montserrat my-6 mr-10">
-                <img src="{{ Vite::asset("resources/assets/logos/Heart.svg")}}" alt='' class="h-7 mr-4"/>
-                <div>
-                    <h3 class="font-semibold text-2xl">Réalisation d'audits de sécurité</h3>
-                    <p>
-                        Nous mettons en place des audits de sécurité réguliers pour assurer une sécurité totale de vos données.
-                    </p>
-                </div>
-            </div>
-
-            <div class="flex items-start font-montserrat my-6 mr-10">
-                <img src="{{ Vite::asset("resources/assets/logos/Heart.svg")}}" alt='' class="h-7 mr-4"/>
-                <div>
-                    <h3 class="font-semibold text-2xl">Mise en place de mesures de prévention et de protection</h3>
-                    <p>
-                        Nous garantissons la mise en place des meilleures solutions pour garantir une protection maximale contre les menaces existantes.
-                    </p>
-                </div>
-            </div>
-
-            {{--<div class="flex items-start font-montserrat my-6 mr-10">
-                <img src="{{ Vite::asset("resources/assets/logos/Heart.svg")}}" alt='' class="h-7 mr-4"/>
-                <div>
-                    <h3 class="font-semibold text-2xl">Feature #4</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Quisquam voluptate praesentium tenetur earum repellendus! Dicta
-                        culpa consequuntur saepe quibusdam labore, est ex ducimus
-                        tempore, quos illum officiis, pariatur ea placeat.
-                    </p>
-                </div>
-            </div>--}}
-
-        </div>
-    </section>
-
-    <!-- Pricing -->
-    <section class="sectionSize bg-secondary py-0">
-        <div>
-            <h2 class="secondaryTitle bg-underline4 mb-0 bg-100%">Team</h2>
-        </div>
-        <div class="flex w-full flex-col md:flex-row">
-
-            <div
-                class='flex-1 flex flex-col mx-6 shadow-2xl relative bg-secondary rounded-2xl py-5 px-8 my-8 md:top-24'>
-                <h3 class="font-pt-serif font-normal text-2xl mb-4">
-                    The Good
-                </h3>
-                <div class="font-montserrat font-bold text-2xl mb-4">
-                    $25
-                    <span class="font-normal text-base"> / month</span>
-                </div>
-
-                <div class="flex">
-                    <img src="{{ Vite::asset("resources/assets/logos/CheckedBox.svg")}}" alt="" class="mr-1"/>
-                    <p>Benefit #1</p>
-                </div>
-                <div class="flex">
-                    <img src="{{ Vite::asset("resources/assets/logos/CheckedBox.svg")}}" alt="" class="mr-1"/>
-                    <p>Benefit #2</p>
-                </div>
-                <div class="flex">
-                    <img src="{{ Vite::asset("resources/assets/logos/CheckedBox.svg")}}" alt="" class="mr-1"/>
-                    <p>Benefit #3</p>
-                </div>
-
-                <button class=" border-2 border-solid border-black rounded-xl text-lg py-3 mt-4">
-                    Choose plan
-                </button>
-            </div>
-
-            <div
-                class='flex-1 flex flex-col mx-6 shadow-2xl relative bg-secondary rounded-2xl py-5 px-8 my-8 md:top-12'>
-                <h3 class="font-pt-serif font-normal text-2xl mb-4">
-                    The Bad
-                </h3>
-                <div class="font-montserrat font-bold text-2xl mb-4">
-                    $40
-                    <span class="font-normal text-base"> / month</span>
-                </div>
-
-                <div class="flex">
-                    <img src="{{ Vite::asset("resources/assets/logos/CheckedBox.svg")}}" alt="" class="mr-1"/>
-                    <p>Benefit #1</p>
-                </div>
-                <div class="flex">
-                    <img src="{{ Vite::asset("resources/assets/logos/CheckedBox.svg")}}" alt="" class="mr-1"/>
-                    <p>Benefit #2</p>
-                </div>
-                <div class="flex">
-                    <img src="{{ Vite::asset("resources/assets/logos/CheckedBox.svg")}}" alt="" class="mr-1"/>
-                    <p>Benefit #3</p>
-                </div>
-
-                <button class=" border-2 border-solid border-black rounded-xl text-lg py-3 mt-4">
-                    Choose plan
-                </button>
-            </div>
-
-            <div
-                class='flex-1 flex flex-col mx-6 shadow-2xl relative bg-secondary rounded-2xl py-5 px-8 my-8 md:top-24'>
-                <h3 class="font-pt-serif font-normal text-2xl mb-4">
-                    The Ugly
-                </h3>
-                <div class="font-montserrat font-bold text-2xl mb-4">
-                    $50
-                    <span class="font-normal text-base"> / month</span>
-                </div>
-
-                <div class="flex">
-                    <img src="{{ Vite::asset("resources/assets/logos/CheckedBox.svg")}}" alt="" class="mr-1"/>
-                    <p>Benefit #1</p>
-                </div>
-                <div class="flex">
-                    <img src="{{ Vite::asset("resources/assets/logos/CheckedBox.svg")}}" alt="" class="mr-1"/>
-                    <p>Benefit #2</p>
-                </div>
-                <div class="flex">
-                    <img src="{{ Vite::asset("resources/assets/logos/CheckedBox.svg")}}" alt="" class="mr-1"/>
-                    <p>Benefit #3</p>
-                </div>
-
-                <button class=" border-2 border-solid border-black rounded-xl text-lg py-3 mt-4">
-                    Choose plan
-                </button>
-            </div>
-
         </div>
     </section>
+    <!-- ====== Cards Section End -->
+
 
     <!-- FAQ  -->
     <section class="sectionSize items-start pt-8 md:pt-36 bg-black text-white">
