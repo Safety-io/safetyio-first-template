@@ -7,13 +7,13 @@
     </a>
         <ul class="font-montserrat items-center hidden md:flex">
         <li class="mx-3 ">
-            <a class="growing-underline" href="#">Home</a>
+            <a class="growing-underline" href="#">Accueil</a>
         </li>
         <li class="growing-underline mx-3">
-            <a href="#">About</a>
+            <a href="#">À propos</a>
         </li>
         <li class="growing-underline mx-3">
-            <a href="#">Team</a>
+            <a href="#">Equipe</a>
         </li>
         <li class="growing-underline mx-3">
             <a href="#">Blog</a>
