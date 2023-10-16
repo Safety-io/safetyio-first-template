@@ -110,8 +110,7 @@
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
+                                Nous proposons un service de création de site web, de maintenance et de création de boîte mail professionnelle, grâce à notre équipe de développeurs.
                             </p>
                         </div>
                     </div>
@@ -135,8 +134,7 @@
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
+                                Pour que votre entreprise conserve son image, notre équipe de designers vous propose des conceptions de qualité.
                             </p>
                         </div>
                     </div>
@@ -160,8 +158,8 @@
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
+
+                                Nous installons et assurons la maintenance du réseau de votre entreprise, avec notre équipe d'experts IT.
                             </p>
                         </div>
                     </div>
@@ -182,12 +180,12 @@
         <div toggleElement class="w-full py-4">
             <div class="flex justify-between items-center">
                 <div question class="font-montserrat font-medium mr-auto">
-                    Where can I get this HTML template?
+                    Pourquoi travailler avec SafetyIo ?
                 </div>
                 <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
-                You can download it on Gumroad.com
+                SafetyIo est une entreprise leader dans le domaine de la sécurité informatique. Elle propose une gamme de produits et de services qui aident les entreprises à protéger leurs données et leurs systèmes contre les cyberattaques
             </div>
         </div>
         <hr class="w-full bg-white"/>
