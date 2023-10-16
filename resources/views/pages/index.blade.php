@@ -77,7 +77,7 @@
     </section>
 
     <!-- ====== Blog Section Start -->
-    <section class="py-6 w-full lg:px-48 md:px-12 px-4">
+    <section class="py-6 w-full lg:px-48 md:px-12 px-4 " id="services">
         <div class="container mx-auto">
             <div class="-mx-4 flex flex-wrap justify-center">
                 <div class="w-full px-4">
@@ -110,8 +110,7 @@
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
+                                Nous proposons un service de création de site web, de maintenance et de création de boîte mail professionnelle, grâce à notre équipe de développeurs.
                             </p>
                         </div>
                     </div>
@@ -135,8 +134,7 @@
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
+                                Pour que votre entreprise conserve son image, notre équipe de designers vous propose des conceptions de qualité.
                             </p>
                         </div>
                     </div>
@@ -160,8 +158,8 @@
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
+
+                                Nous installons et assurons la maintenance du réseau de votre entreprise, avec notre équipe d'experts IT.
                             </p>
                         </div>
                     </div>
@@ -175,19 +173,19 @@
     <section class="sectionSize items-start pt-8 md:pt-36 bg-black text-white">
         <div>
             <h2 class="secondaryTitle bg-highlight3 p-10 mb-0 bg-center bg-100%">
-                FAQ
+                Questions
             </h2>
         </div>
 
         <div toggleElement class="w-full py-4">
             <div class="flex justify-between items-center">
                 <div question class="font-montserrat font-medium mr-auto">
-                    Where can I get this HTML template?
+                    Pourquoi travailler avec SafetyIo ?
                 </div>
                 <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
-                You can download it on Gumroad.com
+                SafetyIo est une entreprise leader dans le domaine de la sécurité informatique. Elle propose une gamme de produits et de services qui aident les entreprises à protéger leurs données et leurs systèmes contre les cyberattaques
             </div>
         </div>
         <hr class="w-full bg-white"/>
@@ -195,12 +193,12 @@
         <div toggleElement class="w-full py-4">
             <div class="flex justify-between items-center">
                 <div question class="font-montserrat font-medium mr-auto">
-                    Is this HTML template free?
+                    Nos produits et services
                 </div>
                 <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
-                Yes! For you it is free.
+                Nous proposons une gamme de solutions qui peuvent être adaptées à vos besoins spécifiques voir nos <strong><a href="#services">services</a></strong>  .
             </div>
         </div>
         <hr class="w-full bg-white"/>
@@ -208,12 +206,12 @@
         <div toggleElement class="w-full py-4">
             <div class="flex justify-between items-center">
                 <div question class="font-montserrat font-medium mr-auto">
-                    Am I awesome?
+                    Service client
                 </div>
                 <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
-                Yes! No doubt about it.
+                Notre équipe d'experts est disponible pour vous aider à choisir la solution qui vous convient le mieux.
             </div>
         </div>
         <hr class="w-full bg-white"/>

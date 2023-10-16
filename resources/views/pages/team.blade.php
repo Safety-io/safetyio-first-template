@@ -1,6 +1,7 @@
 @extends("layouts.app")
-@section('title', 'Contact')
+@section('title', 'Team')
 @section('content')
+
     <!-- ====== Team Section Start -->
     <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
         <div class="container mx-auto">
@@ -8,10 +9,13 @@
                 <div class="w-full px-4">
                     <div class="mx-auto mb-[60px] max-w-[510px] text-center">
                         <h2
-                            class="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]"
+                            class="text-dark mb-4 pt-12 text-3xl font-bold sm:text-4xl md:text-[40px]"
                         >
                             Notre formidable équipe
                         </h2>
+                        <p class="text-body-color text-base">
+                            Nous aimons travailler avec vous dans les domaines suivants : design, programmation et réseaux.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -28,8 +32,8 @@
                                 <div
                                     class="relative mx-5 overflow-hidden rounded-lg bg-white py-5 px-3"
                                 >
-                                    <h3 class="text-dark text-base font-semibold">Coriss Ambady</h3>
-                                    <p class="text-body-color text-sm">Web Developer</p>
+                                    <h3 class="text-dark text-base font-semibold">Paul Kafanda</h3>
+                                    <p class="text-body-color text-sm">Co-founder SafetyIo</p>
                                     <div>
                   <span class="absolute left-0 bottom-0">
                     <svg
@@ -207,7 +211,7 @@
                 <div class="w-full px-4 md:w-1/2 xl:w-1/4">
                     <div class="mx-auto mb-10 w-full max-w-[370px]">
                         <div class="relative overflow-hidden rounded-lg">
-                            <img
+                            <img id="hoverImage"
                                 src="https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-02.jpg"
                                 alt="image"
                                 class="w-full"
@@ -217,7 +221,7 @@
                                     class="relative mx-5 overflow-hidden rounded-lg bg-white py-5 px-3"
                                 >
                                     <h3 class="text-dark text-base font-semibold">
-                                        Glorius Cristian
+                                        Jean Luc Kawel
                                     </h3>
                                     <p class="text-body-color text-sm">App Developer</p>
                                     <div>

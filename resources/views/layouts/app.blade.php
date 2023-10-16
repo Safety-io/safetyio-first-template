@@ -30,6 +30,7 @@
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
     <script src="{{ asset("build/assets/app-6fdc1463.js") }}"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>@yield('title')</title>
 </head>
 <body>
