@@ -1,8 +1,8 @@
-/*import './bootstrap';
+import './bootstrap';
 import.meta.glob([
-    '../images/!**',
+    '../images/**',
     '../fonts/!**',
-]);*/
+]);
 const showMenu = document.getElementById('showMenu');
 const menu = document.querySelector('ul');
 showMenu.addEventListener('click', () => {
