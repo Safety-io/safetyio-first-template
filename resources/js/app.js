@@ -3,7 +3,11 @@ import.meta.glob([
     '../images/!**',
     '../fonts/!**',
 ]);*/
-
+const showMenu = document.getElementById('showMenu');
+const menu = document.querySelector('ul');
+showMenu.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+})
 window.addEventListener("load", function () {
 
     document.querySelectorAll('[toggleElement]').forEach((toggle) => {
