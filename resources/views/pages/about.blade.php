@@ -1,8 +1,7 @@
 @extends("layouts.app")
-@section('title', 'Contact')
+@section('title', 'About')
 @section('content')
 
-   
 
 
     @include('layouts.footer')
