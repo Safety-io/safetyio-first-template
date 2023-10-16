@@ -77,7 +77,7 @@
     </section>
 
     <!-- ====== Blog Section Start -->
-    <section class="py-6 w-full lg:px-48 md:px-12 px-4">
+    <section class="py-6 w-full lg:px-48 md:px-12 px-4 " id="services">
         <div class="container mx-auto">
             <div class="-mx-4 flex flex-wrap justify-center">
                 <div class="w-full px-4">
@@ -173,7 +173,7 @@
     <section class="sectionSize items-start pt-8 md:pt-36 bg-black text-white">
         <div>
             <h2 class="secondaryTitle bg-highlight3 p-10 mb-0 bg-center bg-100%">
-                FAQ
+                Questions
             </h2>
         </div>
 
@@ -193,12 +193,12 @@
         <div toggleElement class="w-full py-4">
             <div class="flex justify-between items-center">
                 <div question class="font-montserrat font-medium mr-auto">
-                    Is this HTML template free?
+                    Nos produits et services
                 </div>
                 <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
-                Yes! For you it is free.
+                Nous proposons une gamme de solutions qui peuvent être adaptées à vos besoins spécifiques voir nos <strong><a href="#services">services</a></strong>  .
             </div>
         </div>
         <hr class="w-full bg-white"/>
@@ -206,12 +206,12 @@
         <div toggleElement class="w-full py-4">
             <div class="flex justify-between items-center">
                 <div question class="font-montserrat font-medium mr-auto">
-                    Am I awesome?
+                    Service client
                 </div>
                 <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
-                Yes! No doubt about it.
+                Notre équipe d'experts est disponible pour vous aider à choisir la solution qui vous convient le mieux.
             </div>
         </div>
         <hr class="w-full bg-white"/>

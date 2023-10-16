@@ -12,8 +12,7 @@
                         />
                     </a>
                     <p class="text-body-color mb-7 text-base">
-                        Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem
-                        totam rem aperiam.
+                        Nous vous proposons des services de maintenance de site, de création d'affiches et de sécurisation de réseau.
                     </p>
                     <p class="text-dark flex items-center text-sm font-medium">
                 </div>
