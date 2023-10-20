@@ -2,7 +2,7 @@
 <nav class="fixed flex justify-between py-6 w-full lg:px-48 md:px-12 px-4 content-center bg-secondary z-10">
     <a href="{{ route('home') }}">
         <div class="p-5 flex items-center">
-            <img src="{{ Vite::asset("resources/assets/Logo_black.svg")}}" alt="Logo" class="h-4" />
+            <img src="{{ asset("assets/Logo_black.svg")}}" alt="Logo" class="h-4" />
         </div>
     </a>
         <ul class="font-montserrat items-center hidden md:flex">
@@ -25,7 +25,7 @@
         </button>
     </div>
     <div id="showMenu" class="md:hidden">
-        <img src="{{ Vite::asset("resources/assets/logos/Menu.svg")}}" alt="Menu icon" />
+        <img src="{{ asset("assets/logos/Menu.svg")}}" alt="Menu icon" />
     </div>
 </nav>
 

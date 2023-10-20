@@ -26,11 +26,11 @@
         </div>
         <div class="flex justify-around md:block mt-8 md:mt-0 md:flex-1">
             <div class="relative">
-                <img src="{{ Vite::asset("resources/assets/Highlight1.svg") }}" alt="" class="absolute -top-16 -left-10"/>
+                <img src="{{ asset("public/build/assets/Underline1-9f67f2c6.svg") }}" alt="" class="absolute -top-16 -left-10"/>
             </div>
-            <img src="{{ Vite::asset("resources/assets/MacBook%20Pro.png")}}" alt="Macbook"/>
+            <img src="{{ asset("assets/MacBook%20Pro.png")}}" alt="Macbook"/>
             <div class="relative">
-                <img src="{{ Vite::asset("resources/assets/Highlight2.svg")}}" alt="" class="absolute -bottom-10 -right-6"/>
+                <img src="{{ asset("assets/assets/Highlight2.svg")}}" alt="" class="absolute -bottom-10 -right-6"/>
             </div>
         </div>
     </section>
@@ -182,7 +182,7 @@
                 <div question class="font-montserrat font-medium mr-auto">
                     Pourquoi travailler avec SafetyIo ?
                 </div>
-                <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
+                <img src="{{ asset("assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
                 SafetyIo est une entreprise leader dans le domaine de la sécurité informatique. Elle propose une gamme de produits et de services qui aident les entreprises à protéger leurs données et leurs systèmes contre les cyberattaques
@@ -195,7 +195,7 @@
                 <div question class="font-montserrat font-medium mr-auto">
                     Nos produits et services
                 </div>
-                <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
+                <img src="{{ asset("assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
                 Nous proposons une gamme de solutions qui peuvent être adaptées à vos besoins spécifiques voir nos <strong><a href="#services">services</a></strong>  .
@@ -208,7 +208,7 @@
                 <div question class="font-montserrat font-medium mr-auto">
                     Service client
                 </div>
-                <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
+                <img src="{{ asset("assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
                 Notre équipe d'experts est disponible pour vous aider à choisir la solution qui vous convient le mieux.
