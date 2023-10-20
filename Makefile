@@ -1,6 +1,6 @@
 deploy: public/build/manifest.json
-	rsync -avz public/build safety:/public_html/public
-	ssh safety 'cd /public_html && git pull origin main && make install'
+	rsync -avz public/build safety:~/public_html/public
+	ssh safety 'cd ~/public_html && git pull && make install'
 
 install: vendor/autoload.php .env public/storage
 	php artisan cache:clear
