@@ -22,6 +22,7 @@
 
 
             <div class="-mx-4 flex flex-wrap py-6 w-full lg:px-48 md:px-12 px-4 content-center">
+                @foreach($blogs as $blog)
                 <div class="w-full px-4 md:w-1/2 lg:w-1/3">
                     <div class="mx-auto mb-10 max-w-[370px]">
                         <div class="mb-8 overflow-hidden rounded">
@@ -32,19 +33,20 @@
                             />
                         </div>
                         <div>
-                <span
-                    class="mb-3 inline-block text-base font-semibold text-primary"
-                >
-                  Management
-                </span>
                             <h3>
                                 <a
                                     href="#"
                                     class="mb-5 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
                                 >
-                                    Meet AutoManage, the best AI management tools
+                                    {{ $blog->content }}
                                 </a>
                             </h3>
+                <span
+                    class="mb-3 inline-block text-base font-semibold text-primary"
+                >
+                    {{ $blog->title }}
+                </span>
+
                             <div class="flex items-center">
                                 <p
                                     class="mr-8 flex items-center text-sm font-medium text-body-color"
@@ -85,19 +87,20 @@
                         />
                       </svg>
                     </span>
-                                    26 Feb 2023
+                                    {{ $blog->created_at->format('d M Y') }}
                                 </p>
 
                                 <p
                                     class="flex items-center text-sm font-medium text-body-color "
                                 >
                                     <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" ><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg>
-                                     <span class="ml-2">Paul Kaf</span>
+                                     <span class="ml-2">{{ $blog->author }}</span>
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
+                @endforeach
             </div>
         </div>
     </section>

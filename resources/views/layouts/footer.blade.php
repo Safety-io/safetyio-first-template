@@ -101,7 +101,7 @@
                         </li>
                         <li>
                             <a
-                                    href="{{ route('blog')  }}"
+                                    href="{{ route('pages.blog')  }}"
                                     class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
                             >
                                 Blog
