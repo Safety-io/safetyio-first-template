@@ -24,7 +24,7 @@
             <a href="{{ route("contact") }}">Contact</a>
         </button>
     </div>
-    <div id="showMenu" class="md:hidden">
+    <div id="showMenu" class="md:hidden mr-10 mt-3">
         <img src="{{ asset("assets/logos/Menu.svg")}}" alt="Menu icon" />
     </div>
 </nav>
