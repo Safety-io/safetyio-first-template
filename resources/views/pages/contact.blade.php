@@ -396,8 +396,38 @@
 
         <div class=" -mx-4 flex flex-wrap justify-center">
             <div class="w-full px-4 lg:w-7/12 xl:w-6/12">
+{{--            alert succes with taillwindCss--}}
+                @if(session('success'))
+                    <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
+                        <strong class="font-bold">Success!</strong>
+                        <span class="block sm:inline">{{ session('success') }}</span>
+                        <span class="absolute top-0 bottom-0 right-0 px-4 py-3">
+                            <svg class="fill-current h-6 w-6 text-green-500" role="button" xmlns="../../../../www.w3.org/2000/svg.html" viewBox="0 0 20 20">
+                                <title>Close</title>
+                                <path d="M14.348 5.652a.5.5 0 010 .707L9.707 10l4.641 4.641a.5.5 0 11-.707.707L9 10.707l-4.641 4.64a.5.5 0 11-.707-.707L8.293 10 3.652 5.359a.5.5 0 01.707-.707L9 9.293l4.641-4.64a.5.5 0 01.707 0z"/>
+                            </svg>
+                        </span>
+                        @elseif(session('error'))
+                            <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+                                <strong class="font-bold">Error!</strong>
+                                <span class="block sm:inline">{{ session('error') }}</span>
+                                <span class="absolute top-0 bottom-0 right-0 px-4 py-3">
+                            <svg class="fill-current h-6 w-6 text-red-500" role="button" xmlns="../../../../www.w3.org/2000/svg.html" viewBox="0 0 20 20">
+                                <title>Close</title>
+                                <path
+                                    d="M14.348 5.652a.5.5 0 010 .707L9.707 10l4.641 4.641a.5.5 0 11-.707.707L9
+                                    10.707l-4.641 4.64a.5.5 0 11-.707-.707L8.293 10 3.652
+                                    5.359a.5.5 0 01.707-.707L9 9.293l4.641-4.64a.5.5
+                                    0 01.707 0z"
+                                />
+                            </svg>
+                        </span>
+                            </div>
+                        @endif
+{{--            alert succes with taillwindCss--}}
                 <div class="mb-12 lg:mb-0 lg:mr-4">
-                    <form class="p-5">
+                    <form class="p-5" action="{{ url('contact') }}" method="post">
+                        {{ csrf_field() }}
                         <div class="-mx-4 flex flex-wrap">
                             <div class="w-full px-4 md:w-1/2">
                                 <div class="mb-7">

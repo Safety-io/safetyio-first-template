@@ -26,3 +26,4 @@ Route::get('/about', function () {
     return view('pages.about');
 })->name('about');
 Route::get('/blog',[\App\Http\Controllers\BlogController::class,'indexx'])->name('pages.blog');
+Route::post('/contact',[\App\Http\Controllers\BlogController::class,'send_mail'])->name('contact');
