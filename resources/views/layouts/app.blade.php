@@ -7,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <script src="{{ asset("build/assets/app-6fdc1463.js") }}"></script>
+{{--    @vite(['resources/css/app.css', 'resources/js/app.js'])--}}
+    <link rel="stylesheet" href="{{ asset("/assets/app.css") }}">
+    <script src="{{ asset("/assets/app.js") }}"> </script>
+    <script src="{{ asset("/assets/app.js") }}" defer> </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>@yield('title')</title>
 </head>
