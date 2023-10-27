@@ -25,7 +25,7 @@
                             class="absolute top-12 -right-4 hidden h-1 w-16 border-t-2 border-dashed border-primary xl:block 2xl:w-[75px]"
                         ></div>
                         <div
-                            class="relative mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-black text-white"
+                            class="relative mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-[#af7dec] text-white"
                         >
                             <svg
                                 width="45"
@@ -63,7 +63,7 @@
                             class="absolute top-12 right-[-14px] hidden h-1 w-16 border-t-2 border-dashed border-primary xl:block 2xl:w-[75px]"
                         ></div>
                         <div
-                            class="mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-black text-white"
+                            class="mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-[#af7dec] text-white"
                         >
                             <svg
                                 width="45"
@@ -93,7 +93,7 @@
                             class="absolute top-12 right-[-14px] hidden h-1 w-16 border-t-2 border-dashed border-primary xl:block 2xl:w-[75px]"
                         ></div>
                         <div
-                            class="mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-black text-white"
+                            class="mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-[#af7dec] text-white"
                         >
                             <svg
                                 width="45"
@@ -130,7 +130,7 @@
                             class="absolute top-12 left-[-14px] hidden h-1 w-16 border-t-2 border-dashed border-primary xl:block 2xl:w-[75px]"
                         ></div>
                         <div
-                            class="mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-black text-white"
+                            class="mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-[#af7dec] text-white"
                         >
                             <svg
                                 width="45"

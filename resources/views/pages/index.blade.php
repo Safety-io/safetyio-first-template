@@ -16,10 +16,10 @@
                 Nous proposons des services de sécurisation des systèmes d'information assortis d'audits de sécurité pour garantir une protection optimale de vos données de travail.
             </p>
             <div class="font-montserrat">
-                <button class="bg-black px-6 py-4 rounded-lg border-2 border-black border-solid text-white mr-2 mb-2">
+                <button class="bg-black px-6 py-4 rounded-lg border-2 border-[#af7dec] border-solid text-white mr-2 mb-2" id="button">
                     <a href="{{ route("team") }}">Equipe</a>
                 </button>
-                <button class="px-6 py-4 border-2 border-black border-solid rounded-lg">
+                <button class="px-6 py-4 border-2 border-[#0c0f20] border-solid rounded-lg">
                     <a href="{{ route("contact") }}">Contact</a>
                 </button>
             </div>
@@ -36,7 +36,7 @@
     </section>
 
     <!-- How it works -->
-    <section class="bg-black text-white sectionSize">
+    <section class="bg-[#0c0f20] text-white sectionSize">
         <div>
             <h1 class="font-roboto text-5xl font-bold mb-7">
                 Guide de SafetyIo
@@ -170,7 +170,7 @@
     <!-- ====== Blog Section End -->
 
     <!-- FAQ  -->
-    <section class="sectionSize items-start pt-8 md:pt-36 bg-black text-white">
+    <section class="sectionSize items-start pt-8 md:pt-36 bg-[#0c0f20]  text-white">
         <div>
             <h2 class="secondaryTitle bg-highlight3 p-10 mb-0 bg-center bg-100%">
                 Questions

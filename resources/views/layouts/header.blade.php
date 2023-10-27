@@ -1,4 +1,14 @@
 @php use Illuminate\Support\Facades\Vite; @endphp
+<style>
+    :root {
+        --primary: #0c0f20;
+        --secondary: #af7dec;
+        --text: #ffffff;
+    }
+    #button{
+        background-color: var(--secondary);
+    }
+</style>
 <nav class="fixed flex justify-between py-6 w-full lg:px-48 md:px-12 px-4 content-center bg-secondary z-10">
     <a href="{{ route('home') }}">
         <div class="p-5 flex items-center">
@@ -20,7 +30,7 @@
         </li>
     </ul>
     <div class="font-montserrat hidden md:block">
-        <button class="py-2 px-4 text-white bg-black rounded">
+        <button class="py-2 px-4 text-white rounded" id="button">
             <a href="{{ route("contact") }}">Contact</a>
         </button>
     </div>
