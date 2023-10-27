@@ -26,7 +26,7 @@
             <a href="{{ route('team') }}">Equipe</a>
         </li>
         <li class="growing-underline mx-3">
-            <a href="{{ route('pages.blog') }}">Blogs</a>
+            <a href="{{ route('pages.blog') }}">Blog</a>
         </li>
     </ul>
     <div class="font-montserrat hidden md:block">
