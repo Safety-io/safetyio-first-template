@@ -16,27 +16,27 @@
                 Nous proposons des services de sécurisation des systèmes d'information assortis d'audits de sécurité pour garantir une protection optimale de vos données de travail.
             </p>
             <div class="font-montserrat">
-                <button class="bg-black px-6 py-4 rounded-lg border-2 border-black border-solid text-white mr-2 mb-2">
-                    <a href="{{ route("team") }}">Team</a>
+                <button class="bg-black px-6 py-4 rounded-lg border-2 border-[#af7dec] border-solid text-white mr-2 mb-2" id="button">
+                    <a href="{{ route("team") }}">Equipe</a>
                 </button>
-                <button class="px-6 py-4 border-2 border-black border-solid rounded-lg">
+                <button class="px-6 py-4 border-2 border-[#0c0f20] border-solid rounded-lg">
                     <a href="{{ route("contact") }}">Contact</a>
                 </button>
             </div>
         </div>
         <div class="flex justify-around md:block mt-8 md:mt-0 md:flex-1">
             <div class="relative">
-                <img src="{{ Vite::asset("resources/assets/Highlight1.svg") }}" alt="" class="absolute -top-16 -left-10"/>
+                <img src="{{ asset("public/build/assets/Underline1-9f67f2c6.svg") }}" alt="" class="absolute -top-16 -left-10"/>
             </div>
-            <img src="{{ Vite::asset("resources/assets/MacBook%20Pro.png")}}" alt="Macbook"/>
+            <img src="{{ asset("assets/MacBook%20Pro.png")}}" alt="Macbook"/>
             <div class="relative">
-                <img src="{{ Vite::asset("resources/assets/Highlight2.svg")}}" alt="" class="absolute -bottom-10 -right-6"/>
+                <img src="{{ asset("assets/assets/Highlight2.svg")}}" alt="" class="absolute -bottom-10 -right-6"/>
             </div>
         </div>
     </section>
 
     <!-- How it works -->
-    <section class="bg-black text-white sectionSize">
+    <section class="bg-[#0c0f20] text-white sectionSize">
         <div>
             <h1 class="font-roboto text-5xl font-bold mb-7">
                 Guide de SafetyIo
@@ -77,7 +77,7 @@
     </section>
 
     <!-- ====== Blog Section Start -->
-    <section class="py-6 w-full lg:px-48 md:px-12 px-4">
+    <section class="py-6 w-full lg:px-48 md:px-12 px-4 " id="services">
         <div class="container mx-auto">
             <div class="-mx-4 flex flex-wrap justify-center">
                 <div class="w-full px-4">
@@ -110,8 +110,7 @@
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
+                                Nous proposons un service de création de site web, de maintenance et de création de boîte mail professionnelle, grâce à notre équipe de développeurs.
                             </p>
                         </div>
                     </div>
@@ -135,8 +134,7 @@
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
+                                Pour que votre entreprise conserve son image, notre équipe de designers vous propose des conceptions de qualité.
                             </p>
                         </div>
                     </div>
@@ -160,8 +158,8 @@
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
+
+                                Nous installons et assurons la maintenance du réseau de votre entreprise, avec notre équipe d'experts IT.
                             </p>
                         </div>
                     </div>
@@ -172,22 +170,22 @@
     <!-- ====== Blog Section End -->
 
     <!-- FAQ  -->
-    <section class="sectionSize items-start pt-8 md:pt-36 bg-black text-white">
+    <section class="sectionSize items-start pt-8 md:pt-36 bg-[#0c0f20]  text-white">
         <div>
             <h2 class="secondaryTitle bg-highlight3 p-10 mb-0 bg-center bg-100%">
-                FAQ
+                Questions
             </h2>
         </div>
 
         <div toggleElement class="w-full py-4">
             <div class="flex justify-between items-center">
                 <div question class="font-montserrat font-medium mr-auto">
-                    Where can I get this HTML template?
+                    Pourquoi travailler avec SafetyIo ?
                 </div>
-                <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
+                <img src="{{ asset("assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
-                You can download it on Gumroad.com
+                SafetyIo est une entreprise leader dans le domaine de la sécurité informatique. Elle propose une gamme de produits et de services qui aident les entreprises à protéger leurs données et leurs systèmes contre les cyberattaques
             </div>
         </div>
         <hr class="w-full bg-white"/>
@@ -195,12 +193,12 @@
         <div toggleElement class="w-full py-4">
             <div class="flex justify-between items-center">
                 <div question class="font-montserrat font-medium mr-auto">
-                    Is this HTML template free?
+                    Nos produits et services
                 </div>
-                <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
+                <img src="{{ asset("assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
-                Yes! For you it is free.
+                Nous proposons une gamme de solutions qui peuvent être adaptées à vos besoins spécifiques voir nos <strong><a href="#services">services</a></strong>  .
             </div>
         </div>
         <hr class="w-full bg-white"/>
@@ -208,12 +206,12 @@
         <div toggleElement class="w-full py-4">
             <div class="flex justify-between items-center">
                 <div question class="font-montserrat font-medium mr-auto">
-                    Am I awesome?
+                    Service client
                 </div>
-                <img src="{{ Vite::asset("resources/assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
+                <img src="{{ asset("assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
             </div>
             <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
-                Yes! No doubt about it.
+                Notre équipe d'experts est disponible pour vous aider à choisir la solution qui vous convient le mieux.
             </div>
         </div>
         <hr class="w-full bg-white"/>

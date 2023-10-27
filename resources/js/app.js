@@ -1,22 +1,14 @@
-/*import './bootstrap';
+import './bootstrap';
 import.meta.glob([
-    '../images/!**',
+    '../images/**',
     '../fonts/!**',
-]);*/
-
+]);
+const showMenu = document.getElementById('showMenu');
+const menu = document.querySelector('ul');
+showMenu.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+})
 window.addEventListener("load", function () {
-    console.log(document.querySelector("#showMenu"));
-    document
-        .querySelector("#showMenu")
-        .addEventListener("click", function (event) {
-            document.querySelector("#mobileNav").classList.remove("hidden");
-        });
-
-    document
-        .querySelector("#hideMenu")
-        .addEventListener("click", function (event) {
-            document.querySelector("#mobileNav").classList.add("hidden");
-        });
 
     document.querySelectorAll('[toggleElement]').forEach((toggle) => {
         toggle.addEventListener("click", function (event) {

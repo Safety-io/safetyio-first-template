@@ -98890,3 +98890,12 @@ video {
         animation: fade-in-down 0.5s ease-out;
     }
 }
+
+:root {
+    --primary: #0c0f20;
+    --secondary: #af7dec;
+    --text: #ffffff;
+}
+#button{
+    background-color: var(--secondary);
+}
