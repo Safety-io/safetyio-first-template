@@ -6,9 +6,9 @@
     <section
         class="pt-24 md:mt-0 md:h-screen flex flex-col justify-center text-center md:text-left md:flex-row md:justify-between md:items-center lg:px-48 md:px-12 px-4 bg-secondary">
         <div class="md:flex-1 md:mr-10">
-            <h1 class="font-roboto text-5xl font-bold mt-5 mb-7">
+            <h1 class="font-roboto text-3xl font-bold mt-5 mb-7">
                 Nous sécurisons vos logiciels et vos données
-                <span class="bg-underline1 bg-left-bottom bg-no-repeat pb-2 bg-100%">
+                <span class="bg-underline1 bg-left-bottom bg-no-repeat pb-2 mb-10 bg-100%">
                     informatiques
             </span>
             </h1>

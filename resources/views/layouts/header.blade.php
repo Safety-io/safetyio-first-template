@@ -11,7 +11,7 @@
 </style>
 <nav class="fixed flex justify-between py-2 w-full lg:px-48 md:px-12 px-4 content-center bg-secondary z-10">
     <a href="{{ route('home') }}">
-        <img src="{{ asset("/logo.png")}}" alt="Logo"  class=" h-24 ml-5" />
+        <img src="{{ asset("/logo.png")}}" alt="Logo"  class=" h-24" />
     </a>
         <ul class="font-montserrat items-center hidden md:flex">
         <li class="mx-3 ">
