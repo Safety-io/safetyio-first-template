@@ -10,7 +10,7 @@
 {{--    @vite(['resources/css/app.css', 'resources/js/app.js'])--}}
     <link rel="stylesheet" href="{{ asset("/assets/app.css") }}">
     <script src="{{ asset("/assets/app.js") }}"> </script>
-    <link rel="stylesheet" href="{{ asset("/assets/app.js") }}">
+    <script src="{{ asset("/assets/app.js") }}" defer> </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>@yield('title')</title>
 </head>
