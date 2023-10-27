@@ -6,16 +6,16 @@
     <section
         class="pt-24 md:mt-0 md:h-screen flex flex-col justify-center text-center md:text-left md:flex-row md:justify-between md:items-center lg:px-48 md:px-12 px-4 bg-secondary">
         <div class="md:flex-1 md:mr-10">
-            <h1 class="font-roboto text-5xl font-bold mb-7">
-                Nous sécurisons vos
+            <h1 class="font-roboto text-5xl font-bold mt-5 mb-7">
+                Nous sécurisons vos logiciels et vos données
                 <span class="bg-underline1 bg-left-bottom bg-no-repeat pb-2 bg-100%">
-              logiciels
+                    informatiques
             </span>
             </h1>
-            <p class="font-montserrat font-normal text-lg text-gray-900 mb-7">
-                Nous proposons des services de sécurisation des systèmes d'information assortis d'audits de sécurité pour garantir une protection optimale de vos données de travail.
-            </p>
-            <div class="font-montserrat">
+{{--            <p class="font-montserrat font-normal text-lg text-gray-900 mb-7">--}}
+{{--                Nous proposons des services de sécurisation des systèmes d'information assortis d'audits de sécurité pour garantir une protection optimale de vos données de travail.--}}
+{{--            </p>--}}
+            <div class="font-montserrat mb-5">
                 <button class="bg-black px-6 py-4 rounded-lg border-2 border-[#af7dec] border-solid text-white mr-2 mb-2" id="button">
                     <a href="{{ route("team") }}">Equipe</a>
                 </button>

@@ -9,11 +9,9 @@
         background-color: var(--secondary);
     }
 </style>
-<nav class="fixed flex justify-between py-6 w-full lg:px-48 md:px-12 px-4 content-center bg-secondary z-10">
+<nav class="fixed flex justify-between py-2 w-full lg:px-48 md:px-12 px-4 content-center bg-secondary z-10">
     <a href="{{ route('home') }}">
-        <div class="p-5 flex items-center">
-            <img src="{{ asset("assets/Logo_black.svg")}}" alt="Logo" class="h-4" />
-        </div>
+        <img src="{{ asset("/logo.png")}}" alt="Logo"  class=" h-24 ml-5" />
     </a>
         <ul class="font-montserrat items-center hidden md:flex">
         <li class="mx-3 ">
@@ -30,11 +28,11 @@
         </li>
     </ul>
     <div class="font-montserrat hidden md:block">
-        <button class="py-2 px-4 text-white rounded" id="button">
+        <button class="py-2 px-4 mt-7 text-white rounded" id="button">
             <a href="{{ route("contact") }}">Contact</a>
         </button>
     </div>
-    <div id="showMenu" class="md:hidden mr-5 mt-3">
+    <div id="showMenu" class="md:hidden mr-5 mt-8">
         <img src="{{ asset("assets/logos/Menu.svg")}}" alt="Menu icon" />
     </div>
 </nav>
