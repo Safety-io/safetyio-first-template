@@ -85,7 +85,7 @@
                         </li>
                         <li>
                             <a
-                                    href="{{ route('about') }}"
+                                    href="#"
                                     class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
                             >
                                 À propos
@@ -93,7 +93,7 @@
                         </li>
                         <li>
                             <a
-                                    href="{{ route('team') }}"
+                                    href="#"
                                     class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
                             >
                                 Equipe
@@ -101,7 +101,7 @@
                         </li>
                         <li>
                             <a
-                                    href="{{ route('pages.blog')  }}"
+                                    href="#"
                                     class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
                             >
                                 Blog
@@ -109,7 +109,7 @@
                         </li>
                         <li>
                             <a
-                                    href="{{ route('contact')  }}"
+                                    href="#"
                                     class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
                             >
                                 Contact

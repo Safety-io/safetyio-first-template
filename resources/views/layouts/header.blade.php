@@ -10,7 +10,8 @@
     }
 </style>
 <nav class="fixed flex justify-between py-2 w-full lg:px-48 md:px-12 px-4 content-center bg-secondary z-10">
-    <a href="{{ route('home') }}">
+{{--    <a href="{{ route('home') }}">--}}
+    <a href="#">
         <img src="{{ asset("/logo.png")}}" alt="Logo"  class=" h-24" />
     </a>
         <ul class="font-montserrat items-center hidden md:flex">
@@ -18,18 +19,19 @@
             <a class="growing-underline" href="{{ route('home') }}">Accueil</a>
         </li>
         <li class="growing-underline mx-3">
-            <a href="{{ route('about') }}">À propos</a>
+            <a href="#">À propos</a>
         </li>
         <li class="growing-underline mx-3">
-            <a href="{{ route('team') }}">Equipe</a>
+            <a href="#">Equipe</a>
         </li>
         <li class="growing-underline mx-3">
-            <a href="{{ route('pages.blog') }}">Blog</a>
+{{--            <a href="{{ route('pages.blog') }}">Blog</a>--}}
+            <a href="#">Blog</a>
         </li>
     </ul>
     <div class="font-montserrat hidden md:block">
         <button class="py-2 px-4 mt-7 text-white rounded" id="button">
-            <a href="{{ route("contact") }}">Contact</a>
+            <a href="#">Contact</a>
         </button>
     </div>
     <div id="showMenu" class="md:hidden mr-5 mt-8">
