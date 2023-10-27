@@ -34,10 +34,16 @@
             <a href="{{ route("contact") }}">Contact</a>
         </button>
     </div>
-    <div id="showMenu" class="md:hidden mr-10 mt-3">
+    <div id="showMenu" class="md:hidden mr-5 mt-3">
         <img src="{{ asset("assets/logos/Menu.svg")}}" alt="Menu icon" />
     </div>
 </nav>
-
+<script>
+    const showMenu = document.getElementById('showMenu');
+    const menu = document.querySelector('ul');
+    showMenu.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    })
+</script>
 
 

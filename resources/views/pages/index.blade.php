@@ -38,7 +38,7 @@
     <!-- How it works -->
     <section class="bg-[#0c0f20] text-white sectionSize">
         <div>
-            <h1 class="font-roboto text-5xl font-bold mb-7">
+            <h1 class="font-roboto text-4xl font-bold mb-7">
                 Guide de SafetyIo
             </h1>
         </div>
@@ -173,7 +173,7 @@
     <section class="sectionSize items-start pt-8 md:pt-36 bg-[#0c0f20]  text-white">
         <div>
             <h2 class="secondaryTitle bg-highlight3 p-10 mb-0 bg-center bg-100%">
-                Questions
+                FAQ
             </h2>
         </div>
 

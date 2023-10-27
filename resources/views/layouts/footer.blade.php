@@ -6,7 +6,7 @@
                 <div class="mb-10 w-full">
                     <a href="javascript:void(0)" class="mb-6 inline-block max-w-[160px]">
                         <img
-                                src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+                                src="{{ asset('logo.png') }}"
                                 alt="logo"
                                 class="max-w-full"
                         />
