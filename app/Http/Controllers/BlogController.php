@@ -14,7 +14,7 @@ class BlogController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function indexx(): View | Paginator
+    public function index(): View | Paginator
     {
         $blogs = Blog::all()->sortDesc();
         $blogs = Blog::paginate(10);
@@ -41,9 +41,10 @@ class BlogController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Blog $blog)
+    public function show(Blog $blog): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
     {
-        return view('blog', ['blog' => $blog]);
+        $blog = Blog::find($blog->id);
+        return view('pages.readBlog', ['blog' => $blog]);
     }
 
     /**
@@ -86,10 +87,7 @@ class BlogController extends Controller
             'number' => $request->number,
             'message' => $request->message,
         ];
-
         Mail::to('jeanluckawel45@gmail.com')->send(new contactMail($data));
-
-
         return back()->with('success', 'Nous vous répondrons dans les plus brefs délais.');
     }
 

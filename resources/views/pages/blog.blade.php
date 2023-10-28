@@ -1,112 +1,44 @@
-@extends("layouts.app")
-@section('title', 'Blog')
-@section('content')
+@include('layouts.app')
 
+<div class="px-4  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div class="grid mt-5 gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+        @foreach($blogs as $blog)
+        @php
+            $blog->content = substr($blog->content, 0, 100);
+        $blog->created_at = date('Y-m-d', strtotime($blog->created_at));
+         @endphp
+            <div class="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+{{--                {{ asset('storage/'.$blog->image) }}--}}
+                <img src="{{  $blog->image }}" class="object-cover w-full h-64" alt="" />
+                <div class="p-5 border border-t-0">
+                    <p class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">
+                        #{{ $blog->id }}
+                    </p>
+                    <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+                        <a href="/" class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700" aria-label="Category" title="traveling">{{ $blog->created_at = date('Y-m-d', strtotime($blog->created_at)) }}</a>
 
-    <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20 ">
-        <div class="container mx-auto">
-            <div class="-mx-4 flex flex-wrap">
-                <div class="w-full px-4">
-                    <div class="mx-auto mb-[60px] max-w-[510px] text-center">
-                        <h2
-                            class="text-dark mb-4 pt-12 text-3xl font-bold sm:text-4xl md:text-[40px]"
-                        >
-                            Notre blog
-                        </h2>
-                        <p class="text-body-color text-base">
-                            Le blog de SafetyIO est un excellent moyen de rester informé des dernières tendances en matière de sécurité informatique
-                        </p>
-                    </div>
-                </div>
-            </div>
+                        <span class="text-gray-600 ml-12">{{ $blog->read_time }} min de lecture</span>
 
+                    </p>
+                    <a href="/" aria-label="Category" title="Film It!" class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">{{ $blog->title }}</a>
+                    <p class="mb-2 text-gray-700">
+                        {{ $blog->content }}
+                    </p>
+                    <div class="flex items-center mt-6">
+                        <img class="object-cover object-center w-10 h-10 rounded-full" src="{{ $blog->picture }}" alt="">
 
-            <div class="-mx-4 flex flex-wrap py-6 w-full lg:px-48 md:px-12 px-4 content-center">
-                @foreach($blogs as $blog)
-                <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-                    <div class="mx-auto mb-10 max-w-[370px]">
-                        <div class="mb-8 overflow-hidden rounded">
-                            <img
-                                src="{{ asset("assets/MacBook%20Pro.png")}}"
-                                alt="image"
-                                class="w-full"
-                            />
-                        </div>
-                        <div>
-                            <h3>
-                                <a
-                                    href="#"
-                                    class="mb-5 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
-                                >
-                                    {{ $blog->content }}
-                                </a>
-                            </h3>
-                <span
-                    class="mb-3 inline-block text-base font-semibold text-primary"
-                >
-                    {{ $blog->title }}
-                </span>
-
-                            <div class="flex items-center">
-                                <p
-                                    class="mr-8 flex items-center text-sm font-medium text-body-color"
-                                >
-                    <span class="mr-3">
-                      <svg
-                          width="15"
-                          height="15"
-                          viewBox="0 0 15 15"
-                          class="fill-current"
-                      >
-                        <path
-                            d="M3.8958 8.67529H3.10715C2.96376 8.67529 2.86816 8.77089 2.86816 8.91428V9.67904C2.86816 9.82243 2.96376 9.91802 3.10715 9.91802H3.8958C4.03919 9.91802 4.13479 9.82243 4.13479 9.67904V8.91428C4.13479 8.77089 4.03919 8.67529 3.8958 8.67529Z"
-                        />
-                        <path
-                            d="M6.429 8.67529H5.64035C5.49696 8.67529 5.40137 8.77089 5.40137 8.91428V9.67904C5.40137 9.82243 5.49696 9.91802 5.64035 9.91802H6.429C6.57239 9.91802 6.66799 9.82243 6.66799 9.67904V8.91428C6.66799 8.77089 6.5485 8.67529 6.429 8.67529Z"
-                        />
-                        <path
-                            d="M8.93779 8.67529H8.14914C8.00575 8.67529 7.91016 8.77089 7.91016 8.91428V9.67904C7.91016 9.82243 8.00575 9.91802 8.14914 9.91802H8.93779C9.08118 9.91802 9.17678 9.82243 9.17678 9.67904V8.91428C9.17678 8.77089 9.08118 8.67529 8.93779 8.67529Z"
-                        />
-                        <path
-                            d="M11.472 8.67529H10.6833C10.5399 8.67529 10.4443 8.77089 10.4443 8.91428V9.67904C10.4443 9.82243 10.5399 9.91802 10.6833 9.91802H11.472C11.6154 9.91802 11.711 9.82243 11.711 9.67904V8.91428C11.711 8.77089 11.5915 8.67529 11.472 8.67529Z"
-                        />
-                        <path
-                            d="M3.8958 11.1606H3.10715C2.96376 11.1606 2.86816 11.2562 2.86816 11.3996V12.1644C2.86816 12.3078 2.96376 12.4034 3.10715 12.4034H3.8958C4.03919 12.4034 4.13479 12.3078 4.13479 12.1644V11.3996C4.13479 11.2562 4.03919 11.1606 3.8958 11.1606Z"
-                        />
-                        <path
-                            d="M6.429 11.1606H5.64035C5.49696 11.1606 5.40137 11.2562 5.40137 11.3996V12.1644C5.40137 12.3078 5.49696 12.4034 5.64035 12.4034H6.429C6.57239 12.4034 6.66799 12.3078 6.66799 12.1644V11.3996C6.66799 11.2562 6.5485 11.1606 6.429 11.1606Z"
-                        />
-                        <path
-                            d="M8.93779 11.1606H8.14914C8.00575 11.1606 7.91016 11.2562 7.91016 11.3996V12.1644C7.91016 12.3078 8.00575 12.4034 8.14914 12.4034H8.93779C9.08118 12.4034 9.17678 12.3078 9.17678 12.1644V11.3996C9.17678 11.2562 9.08118 11.1606 8.93779 11.1606Z"
-                        />
-                        <path
-                            d="M11.472 11.1606H10.6833C10.5399 11.1606 10.4443 11.2562 10.4443 11.3996V12.1644C10.4443 12.3078 10.5399 12.4034 10.6833 12.4034H11.472C11.6154 12.4034 11.711 12.3078 11.711 12.1644V11.3996C11.711 11.2562 11.5915 11.1606 11.472 11.1606Z"
-                        />
-                        <path
-                            d="M13.2637 3.3697H7.64754V2.58105C8.19721 2.43765 8.62738 1.91189 8.62738 1.31442C8.62738 0.597464 8.02992 0 7.28906 0C6.54821 0 5.95074 0.597464 5.95074 1.31442C5.95074 1.91189 6.35702 2.41376 6.93058 2.58105V3.3697H1.31442C0.597464 3.3697 0 3.96716 0 4.68412V13.2637C0 13.9807 0.597464 14.5781 1.31442 14.5781H13.2637C13.9807 14.5781 14.5781 13.9807 14.5781 13.2637V4.68412C14.5781 3.96716 13.9807 3.3697 13.2637 3.3697ZM6.6677 1.31442C6.6677 0.979841 6.93058 0.716957 7.28906 0.716957C7.62364 0.716957 7.91042 0.979841 7.91042 1.31442C7.91042 1.649 7.64754 1.91189 7.28906 1.91189C6.95448 1.91189 6.6677 1.6251 6.6677 1.31442ZM1.31442 4.08665H13.2637C13.5983 4.08665 13.8612 4.34954 13.8612 4.68412V6.45261H0.716957V4.68412C0.716957 4.34954 0.979841 4.08665 1.31442 4.08665ZM13.2637 13.8612H1.31442C0.979841 13.8612 0.716957 13.5983 0.716957 13.2637V7.16957H13.8612V13.2637C13.8612 13.5983 13.5983 13.8612 13.2637 13.8612Z"
-                        />
-                      </svg>
-                    </span>
-                                    {{ $blog->created_at->format('d M Y') }}
-                                </p>
-
-                                <p
-                                    class="flex items-center text-sm font-medium text-body-color "
-                                >
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" ><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg>
-                                     <span class="ml-2">{{ $blog->author }}</span>
-                                </p>
-                            </div>
+                        <div class="mx-4">
+                            <h1 class="text-sm text-gray-500 ">   {{ $blog->auteur }}</h1>
+                            <p class="text-sm text-gray-500  ">{{ $blog->grade }}</p>
                         </div>
                     </div>
+
+                    <a href="{{   $blog = route('readBlog', ['id' => $blog->id]) }}" aria-label="" class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Lire plus</a>
+{{--                    <a href="{{   route("readBlog", ['blog' => $blog->id])}}" aria-label="" class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Lire plus</a>--}}
+{{--                    <a href="{{ route('readBlog' , ['blog' => $blog->id]) }}" aria-label="" class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Lire plus</a>--}}
+
                 </div>
-                @endforeach
             </div>
-        </div>
-
-    </section>
-
-
-    @include('layouts.footer')
-@endsection
-
+        @endforeach
+    </div>
+</div>
