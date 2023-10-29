@@ -80,7 +80,7 @@
                         </div>
                     </div>
                     <a href="{{ route('readBlog', ['id' => $blog->id]) }}" aria-label=""
-                       class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-white hover:text-deep-purple-800">Lire
+                       class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-blue-500 hover:text-deep-purple-800">Lire
                         plus</a>
 
                 </div>
