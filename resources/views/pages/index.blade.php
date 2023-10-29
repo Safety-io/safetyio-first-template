@@ -86,10 +86,10 @@
                 </div>
                 <div class="font-montserrat mb-5">
                     <button class="bg-black px-6 py-4 rounded-lg border-2 border-[#af7dec] border-solid text-white mr-2 mb-2" id="button">
-                        <a href="#">Equipe</a>
+                        <a href="{{ route('team') }}">Equipe</a>
                     </button>
                     <button class="px-6 py-4 border-2 border-[#0c0f20] border-solid rounded-lg">
-                        <a href="#">Contact</a>
+                        <a href="{{ route('contact') }}">Contact</a>
                     </button>
                 </div>
             </div>

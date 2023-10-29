@@ -1,20 +1,20 @@
-<div class="bg-secondary w-full lg:px-48 md:px-12    bg-secondary  fixed">
+<div class="bg-secondary w-full lg:px-48 md:px-12    bg-secondary  fixed z-50">
 {{--    py-6  px-4 lg:pb-20--}}
     <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
-            <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
+            <a href=" {{ route('home') }}" aria-label="Company" title="Company" class="inline-flex items-center">
                 <span class="ml-2 text-xl font-bold tracking-wide text-black uppercase">Safety IO</span>
             </a>
             <ul class="flex items-center hidden space-x-8 lg:flex">
-                <li><a href="/" aria-label=" Accueil" title=" Accueil" class="font-sans  font-bold  tracking-wide text-black  transition-colors duration-200 hover:text-teal-accent-400">Accueil</a></li>
-                <li><a href="/" aria-label="Our product" title="Our product" class="font-sans  font-bold  tracking-wide text-black  transition-colors duration-200 hover:text-teal-accent-400">  À propos</a></li>
-                <li><a href="/" aria-label="Product pricing" title="Product pricing" class="font-sans  font-bold tracking-wide ttext-black transition-colors duration-200 hover:text-teal-accent-400">    Equipe</a></li>
-                <li><a href="/" aria-label="About us" title="About us" class="font-sans font-bold   tracking-wide text-black  transition-colors duration-200 hover:text-teal-accent-400"> Blog</a></li>
+                <li><a href=" {{ route('home') }}" aria-label=" Accueil" title=" Accueil" class="font-sans  font-bold  tracking-wide text-black  transition-colors duration-200 hover:text-teal-accent-400">Accueil</a></li>
+                <li><a href="{{ route('about') }}" aria-label="Our product" title="Our product" class="font-sans  font-bold  tracking-wide text-black  transition-colors duration-200 hover:text-teal-accent-400">  À propos</a></li>
+                <li><a href="{{ route('team') }}" aria-label="Product pricing" title="Product pricing" class="font-sans  font-bold tracking-wide ttext-black transition-colors duration-200 hover:text-teal-accent-400">    Equipe</a></li>
+                <li><a href="{{ route('pages.blog') }}" aria-label="About us" title="About us" class="font-sans font-bold   tracking-wide text-black  transition-colors duration-200 hover:text-teal-accent-400"> Blog</a></li>
             </ul>
             <ul class="flex items-center hidden space-x-8 lg:flex">
                 <li>
                     <a
-                        href="/"
+                        href="{{ route('contact') }}"
                         class="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-[#af7dec] hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                         aria-label="Contact"
                     >
