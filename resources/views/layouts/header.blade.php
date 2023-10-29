@@ -59,18 +59,18 @@
                     </div>
                     <nav>
                       <ul class="space-y-4">
-                        <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Product</a></li>
-                        <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Features</a></li>
-                        <li><a href="/" aria-label="Product pricing" title="Product pricing" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Pricing</a></li>
-                        <li><a href="/" aria-label="About us" title="About us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">About us</a></li>
+                        <li><a href="{{ route('home') }}" aria-label="mobile home" title="Home" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Acceuil</a></li>
+                        <li><a href="{{ route('team') }}" aria-label="mobile team" title="Team" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Equipe</a></li>
+                        <li><a href="{{ route('pages.blog') }}" aria-label="mobile blog" title="Blog" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Blog</a></li>
+                        <li><a href="{{ route('about') }}" aria-label="mobile about" title="About us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">A propos</a></li>
                         <li>
                           <a
-                            href="/"
-                            class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                            aria-label="Sign up"
-                            title="Sign up"
+                            href="{{ route('contact') }}"
+                            class="inline-flex items-center justify-center w-full h-12 text-white bg-[#af7dec] px-6 font-medium tracking-wide transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                            aria-label="Contact"
+                            title="Contact Us"
                           >
-                            Sign up
+                            Contact
                           </a>
                         </li>
                       </ul>
