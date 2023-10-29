@@ -32,7 +32,7 @@
                     </svg>
                 </button>
 
-                <div class="absolute top-0 left-0 w-full">
+                <div class="absolute top-0 left-0 w-full hidden">
                   <div class="p-5 bg-white border rounded shadow-sm">
                     <div class="flex items-center justify-between mb-4">
                       <div>
@@ -86,18 +86,28 @@
 
 {{-- script button mobile--}}
 <script>
+    let expanded = false;
     const btn = document.querySelector("button[aria-label='Open Menu']");
     const closeBtn = document.querySelector("button[aria-label='Close Menu']");
     const menu = document.querySelector(".absolute.top-0.left-0.w-full");
-    const body = font-sans ySelector("bodytext-black .addEventListener("click", () => {
-        menu.classList.add("left-0");
-        menu.classList.remove("-left-full");
-        body.classList.add("overflow-hidden");
+
+    btn.addEventListener("click", () => {
+        if(expanded){
+            menu.classList.add("hidden");
+            expanded = false;
+        } else {
+            menu.classList.remove("hidden");
+            expanded = true;
+        }
     });
 
     closeBtn.addEventListener("click", () => {
-        menu.classList.add("-left-full");
-        menu.classList.remove("left-0");
-        body.classList.remove("overflow-hidden");
+        if(expanded){
+            menu.classList.add("hidden");
+            expanded = false;
+        } else {
+            menu.classList.remove("hidden");
+            expanded = true;
+        }
     });
 </script>
