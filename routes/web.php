@@ -26,6 +26,11 @@ Route::get('/team', function () {
 Route::get('/about', function () {
     return view('pages.about');
 })->name('about');
+
+Route::get('/condition', function () {
+    return view('pages.condition');
+})->name('condition');
+
 Route::get('/blog',[BlogController::class, 'index'])->name('pages.blog');
 Route::post('/contact',[BlogController::class,'send_mail'])->name('contact');
 Route::get('/blog/{id}',[BlogController::class,'show'])->name('readBlog');
