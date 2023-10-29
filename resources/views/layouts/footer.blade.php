@@ -1,6 +1,6 @@
 <!-- component bg-gradient-to-r via-[#af7dec] to-gray-100  -->
 <footer class=" relative z-10 bg-secondary py-6 w-full lg:px-48 md:px-12 px-4 lg:pb-20 ">
-    <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+    <div class="max-w-screen-xl  mx-auto sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div class="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
                 <div>
@@ -86,6 +86,6 @@
                 </div>
             </div>
         </div>
-        <p class="mt-8 text-xs text-gray-800">&copy; 2023 <strong>Safety Io. </strong>Tous droits réservés </p>
+        <p class="text-xs mt-5 text-gray-800">&copy; 2023 <strong>Safety Io. </strong>Tous droits réservés </p>
     </div>
 </footer>
