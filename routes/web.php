@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,5 +26,6 @@ Route::get('/team', function () {
 Route::get('/about', function () {
     return view('pages.about');
 })->name('about');
-Route::get('/blog',[\App\Http\Controllers\BlogController::class,'indexx'])->name('pages.blog');
-Route::post('/contact',[\App\Http\Controllers\BlogController::class,'send_mail'])->name('contact');
+Route::get('/blog',[BlogController::class, 'index'])->name('pages.blog');
+Route::post('/contact',[BlogController::class,'send_mail'])->name('contact');
+Route::get('/blog/{id}',[BlogController::class,'show'])->name('readBlog');
