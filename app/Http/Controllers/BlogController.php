@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\contactMail;
 use App\Models\Blog;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\View\View;
 use Nette\Utils\Paginator;
@@ -41,10 +42,11 @@ class BlogController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Blog $blog): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
+    public function show(int $id): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
     {
-        $blog = Blog::find($blog->id);
-        return view('pages.readBlog', ['blog' => $blog]);
+        $five_latest = DB::table('blogs')->latest()->limit(5)->get();
+        $blog = DB::table('blogs')->find($id);
+        return view('pages.readBlog', ['blog' => $blog, 'latest' => $five_latest]);
     }
 
     /**
