@@ -33,7 +33,7 @@
                         </div>
                     </div>
 
-                    <a href="{{   $blog = route('readBlog', ['id' => $blog->id]) }}" aria-label="" class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Lire plus</a>
+                    <a href="{{   $blog = route('readBlog', ['id' => $blog->id]) }}" aria-label="" class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-[#af7dec] hover:text-deep-purple-800">Lire plus</a>
 {{--                    <a href="{{   route("readBlog", ['blog' => $blog->id])}}" aria-label="" class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Lire plus</a>--}}
 {{--                    <a href="{{ route('readBlog' , ['blog' => $blog->id]) }}" aria-label="" class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Lire plus</a>--}}
 
