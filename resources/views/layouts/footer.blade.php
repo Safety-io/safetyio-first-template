@@ -1,5 +1,5 @@
 <!-- component bg-gradient-to-r via-[#af7dec] to-gray-100  -->
-<footer class=" relative z-10 bg-secondary py-6 w-full lg:px-48 md:px-12 px-4 lg:pb-20 ">
+<footer class=" bg-secondary   ">
     <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div class="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
@@ -28,7 +28,7 @@
                         Helpful Links
                     </p>
                     <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                        <a class="hover:opacity-75" href="#"> Terms &amp; Conditions </a>
+                        <a class="hover:opacity-75" href="{{ route("condition") }}"> Terms &amp; Conditions </a>
                         <a class="hover:opacity-75" href="#"> FAQs </a>
                     </nav>
                 </div>
@@ -45,10 +45,6 @@
                 </div>
             </div>
             <div>
-                {{--                <img src="#" class="mr-5 h-6 sm:h-9" alt="logo" />--}}
-                {{--                <p class="max-w-xs mt-4 text-sm text-gray-600">--}}
-                {{--                    Nous vous proposons des services de maintenance de site, de création d'affiches et de sécurisation de réseau.--}}
-                {{--                </p>--}}
                 <p class="font-semibold">
                     Suivez-nous sur
                 </p>
