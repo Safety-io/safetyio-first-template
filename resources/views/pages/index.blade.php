@@ -3,7 +3,7 @@
 @section('title', 'Home')
 @section('content')
     <!-- Hero -->
-    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
         <div class="flex flex-col items-center justify-between lg:flex-row mt-5">
             <div class="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
                 <div class="max-w-xl mb-6">
@@ -31,45 +31,52 @@
         </div>
     </div>
     <!-- How it works 200 -->
-    <section class="bg-[#0c0f20] text-white  sectionSize">
+    <div class="bg-[#0c0f20]">
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div>
-            <h1 class="font-sans   font-bold  text-2xl mb-5">
+            <h1 class="font-sans  text-white text-center font-bold  text-2xl mb-5">
                 Guide de Safety Io
             </h1>
         </div>
-        <div class="flex flex-col md:flex-row">
-            <div class="flex-1 mx-8 flex flex-col items-center my-4">
-                <div
-                    class="border-2 rounded-full bg-secondary text-black h-12 w-12 flex justify-center items-center mb-3">
-                    1
+        <div class="grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3">
+
+            <div class="p-5 duration-300 transform  border-2 border-dashed rounded shadow-sm border-deep-purple-accent-100 hover:-translate-y-2">
+                <div class="flex items-center mb-2">
+                    <p class="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-black rounded-full bg-white">
+                        1
+                    </p>
+                    <p class="text-lg text-white font-bold leading-5">Confidentialité</p>
                 </div>
-                <h3 class="font-sans   font-bold text-xl mb-2">Confidentialité</h3>
-                <p class="text-center text-base text-white">
+                <p class="text-sm text-white">
                     les données et les systèmes doivent être protégés contre l'accès non autorisé
                 </p>
             </div>
-            <div class="flex-1 mx-8 flex flex-col items-center my-4">
-                <div
-                    class="border-2 rounded-full bg-secondary text-black h-12 w-12 flex justify-center items-center mb-3">
-                    2
+            <div class="p-5 duration-300 transform  border-2 border-dashed rounded shadow-sm border-deep-purple-accent-100 hover:-translate-y-2">
+                <div class="flex items-center mb-2">
+                    <p class="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-black rounded-full bg-white">
+                        2
+                    </p>
+                    <p class="text-lg text-white font-bold leading-5">Évolutivité</p>
                 </div>
-                <h3 class="font-sans   font-bold text-xl  mb-2">Évolutivité</h3>
-                <p class="text-center text-base text-white">
+                <p class="text-sm text-white">
                     la capacité d'un système à être mis à jour et étendu pour répondre aux besoins changeants
                 </p>
             </div>
-            <div class="flex-1 mx-8 flex flex-col items-center my-4">
-                <div
-                    class="border-2 rounded-full bg-secondary text-black h-12 w-12 flex justify-center items-center mb-3">
-                    3
+            <div class="p-5 duration-300 transform  border-2 border-dashed rounded shadow-sm border-deep-purple-accent-100 hover:-translate-y-2">
+                <div class="flex items-center mb-2">
+                    <p class="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-black rounded-full bg-white">
+                        3
+                    </p>
+                    <p class="text-lg text-white font-bold leading-5">Sécurité</p>
                 </div>
-                <h3 class="font-sans   font-bold text-xl  mb-2">Sécurité</h3>
-                <p class="text-center text-base text-white">
-                   La protection d'un système contre les menaces et les vulnérabilités connues et inconnues
+                <p class="text-sm text-white">
+                    La protection d'un système contre les menaces et les vulnérabilités connues et inconnues
                 </p>
             </div>
         </div>
-    </section>
+    </div>
+    </div>
+
 
     <!-- ====== Blog Section Start -->
     <section class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 " id="services">
