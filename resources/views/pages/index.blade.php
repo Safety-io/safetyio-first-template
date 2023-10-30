@@ -25,14 +25,15 @@
                 </div>
             </div>
             <div class="  lg:w-1/2">
-                <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+{{--                <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />--}}
+                <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96" src="{{ asset('header.jpg') }}" alt="" />
             </div>
         </div>
     </div>
     <!-- How it works 200 -->
     <section class="bg-[#0c0f20] text-white  sectionSize">
         <div>
-            <h1 class="font-sans   font-bold  text-4xl mb-5">
+            <h1 class="font-sans   font-bold  text-2xl mb-5">
                 Guide de Safety Io
             </h1>
         </div>
@@ -76,14 +77,14 @@
             <div class="-mx-4 flex flex-wrap justify-center">
                 <div class="w-full px-4">
                     <div>
-                        <h1 class="font-sans font-bold  text-4xl mb-5 ">
+                        <h1 class="font-sans font-bold  text-2xl mb-5 ">
                             Nos services
                         </h1>
 
                         <div class="flex mx-auto mt-2" >
-                            <span class="inline-block w-24 h-1 bg-blue-500 rounded-full "></span>
-                            <span class="inline-block w-8 h-1 mx-1 bg-blue-500 rounded-full"></span>
-                            <span class="inline-block w-4 h-1 bg-blue-500 rounded-full"></span>
+                            <span class="inline-block w-12 h-1 bg-blue-500 rounded-full "></span>
+                            <span class="inline-block w-4 h-1 mx-1 bg-blue-500 rounded-full"></span>
+                            <span class="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
                         </div>
                     </div>
                 </div>
@@ -93,8 +94,10 @@
                     <div class="mx-auto mb-10 max-w-[370px]">
                         <div class="mb-8 overflow-hidden rounded">
                             <img
-                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-01.jpg"
-                                alt="image"
+{{--                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-01.jpg"--}}
+                                    src="{{ asset('webdev.jpg') }}"
+
+                                    alt="image"
                                 class="w-full"
                             />
                         </div>
@@ -102,7 +105,7 @@
                             <h3>
                                 <a
                                     href="#"
-                                    class="font-sans   font-bold  text-2xl mb-5 "
+                                    class="font-sans    font-bold  text-1xl mb-5 "
                                 >
                                   Programmation
                                 </a>
@@ -117,7 +120,8 @@
                     <div class="mx-auto mb-10 max-w-[370px]">
                         <div class="mb-8 overflow-hidden rounded">
                             <img
-                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-02.jpg"
+{{--                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-02.jpg"--}}
+                                src="{{ asset('wendsn.jpg') }}"
                                 alt="image"
                                 class="w-full"
                             />
@@ -126,7 +130,7 @@
                             <h3>
                                 <a
                                     href="#"
-                                    class="font-sans   font-bold  text-2xl mb-5 "
+                                    class="font-sans   font-bold  text-1xl mb-5 "
                                 >
                                     Design
                                 </a>
@@ -141,8 +145,11 @@
                     <div class="mx-auto mb-10 max-w-[370px]">
                         <div class="mb-8 overflow-hidden rounded">
                             <img
-                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-03.jpg"
-                                alt="image"
+{{--                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-03.jpg"--}}
+                                    src="{{ asset('webrx.jpg') }}"
+
+
+                                    alt="image"
                                 class="w-full"
                             />
                         </div>
@@ -150,10 +157,10 @@
                             <h3>
                                 <a
                                     href="#"
-                                    class="font-sans   font-bold  text-2xl mb-5 "
+                                    class="font-sans   font-bold  text-1xl mb-5 "
 
                                 >
-                                    réseau
+                                    Réseau
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
