@@ -3,75 +3,6 @@
 @section('title', 'Home')
 @section('content')
     <!-- Hero -->
-{{--    <section--}}
-{{--        class="pt-24 md:mt-0 md:h-screen flex flex-col justify-center text-center md:text-left md:flex-row md:justify-between md:items-center lg:px-48 md:px-12 px-4 bg-secondary">--}}
-{{--        <div class="md:flex-1 md:mr-10">--}}
-{{--            <h1 class="font-roboto text-3xl font-bold mt-5 mb-7">--}}
-{{--                Nous sécurisons vos logiciels et vos données--}}
-{{--                <span class="bg-underline1 bg-left-bottom bg-no-repeat pb-2 mb-10 bg-100%">--}}
-{{--                    informatiques--}}
-{{--            </span>--}}
-{{--            </h1>--}}
-{{--            <p class="font-montserrat font-normal text-lg text-gray-900 mb-7">--}}
-{{--                Nous proposons des services de sécurisation des systèmes d'information assortis d'audits de sécurité pour garantir une protection optimale de vos données de travail.--}}
-{{--            </p>--}}
-{{--            <div class="font-montserrat mb-5">--}}
-{{--                <button class="bg-black px-6 py-4 rounded-lg border-2 border-[#af7dec] border-solid text-white mr-2 mb-2" id="button">--}}
-{{--                    <a href="#">Equipe</a>--}}
-{{--                </button>--}}
-{{--                <button class="px-6 py-4 border-2 border-[#0c0f20] border-solid rounded-lg">--}}
-{{--                    <a href="#">Contact</a>--}}
-{{--                </button>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--        <div class="flex justify-around md:block mt-8 md:mt-0 md:flex-1">--}}
-{{--            <div class="relative">--}}
-{{--                <img src="{{ asset("public/build/assets/Underline1-9f67f2c6.svg") }}" alt="" class="absolute -top-16 -left-10"/>--}}
-{{--            </div>--}}
-{{--            <img src="{{ asset("assets/MacBook%20Pro.png")}}" alt="Macbook"/>--}}
-{{--            <div class="relative">--}}
-{{--                <img src="{{ asset("assets/assets/Highlight2.svg")}}" alt="" class="absolute -bottom-10 -right-6"/>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </section>--}}
-{{--    <section class="py-6 w-full lg:px-48 md:px-12 px-4">--}}
-{{--        <div class="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">--}}
-{{--            <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">--}}
-{{--                <div class="max-w-xl mb-6">--}}
-{{--                    <div>--}}
-{{--                        <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">--}}
-{{--                            New Colaboration--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
-{{--                    <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">--}}
-{{--                        The quick, brown fox<br class="hidden md:block" />--}}
-{{--                        jumps over--}}
-{{--                        <span class="inline-block text-deep-purple-accent-400">a lazy dog</span>--}}
-{{--                    </h2>--}}
-{{--                    <p class="text-base text-gray-700 md:text-lg">--}}
-{{--                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <div class="flex flex-col items-center md:flex-row">--}}
-{{--                    <a--}}
-{{--                        href="/"--}}
-{{--                        class="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"--}}
-{{--                    >--}}
-{{--                        Apply Now--}}
-{{--                    </a>--}}
-{{--                    <a href="/" aria-label="" class="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700">Learn more</a>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--        <div class="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">--}}
-{{--            <img--}}
-{{--                class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"--}}
-{{--                src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"--}}
-{{--                alt=""--}}
-{{--            />--}}
-{{--        </div>--}}
-{{--    </section>--}}
-
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div class="flex flex-col items-center justify-between lg:flex-row mt-5">
             <div class="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
@@ -94,14 +25,15 @@
                 </div>
             </div>
             <div class="  lg:w-1/2">
-                <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+{{--                <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />--}}
+                <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96" src="{{ asset('header.jpg') }}" alt="" />
             </div>
         </div>
     </div>
     <!-- How it works 200 -->
     <section class="bg-[#0c0f20] text-white sectionSize">
         <div>
-            <h1 class="font-sans   font-bold  text-4xl mb-5">
+            <h1 class="font-sans   font-bold  text-2xl mb-5">
                 Guide de Safety Io
             </h1>
         </div>
@@ -145,14 +77,14 @@
             <div class="-mx-4 flex flex-wrap justify-center">
                 <div class="w-full px-4">
                     <div>
-                        <h1 class="font-sans font-bold  text-4xl mb-5 ">
+                        <h1 class="font-sans font-bold  text-2xl mb-5 ">
                             Nos services
                         </h1>
 
                         <div class="flex mx-auto mt-2" >
-                            <span class="inline-block w-24 h-1 bg-blue-500 rounded-full "></span>
-                            <span class="inline-block w-8 h-1 mx-1 bg-blue-500 rounded-full"></span>
-                            <span class="inline-block w-4 h-1 bg-blue-500 rounded-full"></span>
+                            <span class="inline-block w-12 h-1 bg-blue-500 rounded-full "></span>
+                            <span class="inline-block w-4 h-1 mx-1 bg-blue-500 rounded-full"></span>
+                            <span class="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
                         </div>
                     </div>
                 </div>
@@ -162,8 +94,10 @@
                     <div class="mx-auto mb-10 max-w-[370px]">
                         <div class="mb-8 overflow-hidden rounded">
                             <img
-                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-01.jpg"
-                                alt="image"
+{{--                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-01.jpg"--}}
+                                    src="{{ asset('webdev.jpg') }}"
+
+                                    alt="image"
                                 class="w-full"
                             />
                         </div>
@@ -171,7 +105,7 @@
                             <h3>
                                 <a
                                     href="#"
-                                    class="font-sans   font-bold  text-2xl mb-5 "
+                                    class="font-sans    font-bold  text-1xl mb-5 "
                                 >
                                   Programmation
                                 </a>
@@ -186,7 +120,8 @@
                     <div class="mx-auto mb-10 max-w-[370px]">
                         <div class="mb-8 overflow-hidden rounded">
                             <img
-                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-02.jpg"
+{{--                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-02.jpg"--}}
+                                src="{{ asset('wendsn.jpg') }}"
                                 alt="image"
                                 class="w-full"
                             />
@@ -195,7 +130,7 @@
                             <h3>
                                 <a
                                     href="#"
-                                    class="font-sans   font-bold  text-2xl mb-5 "
+                                    class="font-sans   font-bold  text-1xl mb-5 "
                                 >
                                     Design
                                 </a>
@@ -210,8 +145,11 @@
                     <div class="mx-auto mb-10 max-w-[370px]">
                         <div class="mb-8 overflow-hidden rounded">
                             <img
-                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-03.jpg"
-                                alt="image"
+{{--                                src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-03.jpg"--}}
+                                    src="{{ asset('webrx.jpg') }}"
+
+
+                                    alt="image"
                                 class="w-full"
                             />
                         </div>
@@ -219,10 +157,10 @@
                             <h3>
                                 <a
                                     href="#"
-                                    class="font-sans   font-bold  text-2xl mb-5 "
+                                    class="font-sans   font-bold  text-1xl mb-5 "
 
                                 >
-                                    réseau
+                                    Réseau
                                 </a>
                             </h3>
                             <p class="text-body-color text-base">
