@@ -25,7 +25,7 @@
                 </div>
                 <div>
                     <p class="font-semibold">
-                        Helpful Links
+                        Aide
                     </p>
                     <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
                         <a class="hover:opacity-75" href="{{ route("condition") }}"> Terms &amp; Conditions </a>
