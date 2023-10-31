@@ -17,7 +17,7 @@ class PullRequestController extends Controller
         } elseif ($event === 'ping') {
             return response()->json(['message' => 'pong'], 200);
         } else {
-            return response()->json(['message' => 'not push'], 200);
+            return response()->json(['message' => 'not pull_request'], 200);
         }
         return response()->json(['message' => 'ok'], 201);
     }

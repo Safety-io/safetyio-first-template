@@ -25,6 +25,6 @@ class PullRequest extends Command
      */
     public function handle(): void
     {
-        echo `git pull origin main`;
+        echo `git reset --hard && git pull`;
     }
 }
