@@ -6,13 +6,14 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
 
-class PushController extends Controller
+class PullRequestController extends Controller
 {
-    public function push(Request $request): JsonResponse
+    private String $event = "pull_request";
+    public function handle(Request $request): JsonResponse
     {
         $event = $request->header('X-GitHub-Event');
-        if ($event === 'push') {
-            Artisan::call('app:pull');
+        if ($event === $this->event) {
+            Artisan::call('app:pull_request');
         } elseif ($event === 'ping') {
             return response()->json(['message' => 'pong'], 200);
         } else {

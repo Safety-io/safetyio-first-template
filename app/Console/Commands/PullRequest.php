@@ -4,14 +4,14 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-class Pull extends Command
+class PullRequest extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'app:pull';
+    protected $signature = 'app:pull_request';
 
     /**
      * The console command description.

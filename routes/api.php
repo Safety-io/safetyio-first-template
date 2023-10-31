@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\PushController;
+use App\Http\Controllers\PullRequestController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -19,4 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/push', [PushController::class, 'push']);
+Route::post('/push', [PullRequestController::class, 'handle']);
