@@ -1,5 +1,5 @@
 @include('layouts.app')
- 
+
 <section class="flex items-center  ">
     <div class="p-4 mt-10 mx-auto max-w-7xl">
         <div class="flex flex-wrap justify-center text-center mt-12 mb-12">
@@ -17,54 +17,58 @@
             </div>
         </div>
         <div class="grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4  sm:grid-cols-2 lg:grid-cols-3">
- 
-<div class="px-4  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-    <div class="grid mt-5 gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
-        @foreach($blogs as $blog)
-        @php
-            $blog->content = substr($blog->content, 0, 100);
-        $blog->created_at = date('Y-m-d', strtotime($blog->created_at));
-         @endphp
-            <div class="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-{{--                {{ asset('storage/'.$blog->image) }}--}}
-                <img src="{{  $blog->image }}" class="object-cover w-full h-64" alt="" />
-                <div class="p-5 border border-t-0">
-                    <p class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">
-                        #{{ $blog->id }}
-                    </p>
-                    <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
-                        <a href="/" class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700" aria-label="Category" title="traveling">{{ $blog->created_at = date('Y-m-d', strtotime($blog->created_at)) }}</a>
- 
 
-                        <span class="text-gray-600 ml-12">{{ $blog->read_time }} min de lecture</span>
+            @foreach($blogs as $blog)
+                @php
+                    $blog->content = substr($blog->content, 0, 100);
+                $blog->created_at = date('Y-m-d', strtotime($blog->created_at));
+                @endphp
 
-                    </p>
-                    <a href="/" aria-label="Category" title="Film It!" class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">{{ $blog->title }}</a>
-                    <p class="mb-2 text-gray-700">
-                        {{ $blog->content }}
-                    </p>
-                    <div class="flex items-center mt-6">
-                        <img class="object-cover object-center w-10 h-10 rounded-full" src="{{ $blog->picture }}" alt="">
+            <div class="mb-0 overflow-hidden bg-white rounded  shadow dark:bg-gray-700">
+                <div class="relative overflow-hidden h-72">
+                        <span class="absolute px-3 py-1 text-xs text-white bg-blue-500 rounded bottom-3 right-3">
+                            {{ $blog->read_time }} min de lecture
+                        </span>
+                    <img class="object-cover w-full h-full transition-all hover:scale-110"
+                         src="{{ $blog->image }}" alt="">
+                </div>
+                <div class="relative z-20 p-8 -mt-16 ">
+                    <div class="flex items-center">
+                        <img class="object-cover w-20 h-20 mb-4 border-4 border-white rounded-full dark:border-gray-700"
+                             src="{{ $blog->picture }}"
+                             alt="">
 
-                        <div class="mx-4">
-                            <h1 class="text-sm text-gray-500 ">   {{ $blog->auteur }}</h1>
-                            <p class="text-sm text-gray-500  ">{{ $blog->grade }}</p>
+                        <div class="flex flex-col items-center ml-2">
+                                <span
+                                    class="block mt-3 mb-2 text-xs font-semibold text-blue-700 uppercase dark:text-blue-300">
+                                     {{ $blog->auteur }} <br> {{ $blog->grade }}
+                                </span>
                         </div>
                     </div>
+                    <h2 class="mb-3 text-2xl font-bold leading-9 text-blue-800 dark:text-white">
+                        {{ $blog->title }}
 
-                    <a href="{{   $blog = route('readBlog', ['id' => $blog->id]) }}" aria-label="" class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-[#af7dec] hover:text-deep-purple-800">Lire plus</a>
-{{--                    <a href="{{   route("readBlog", ['blog' => $blog->id])}}" aria-label="" class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Lire plus</a>--}}
-{{--                    <a href="{{ route('readBlog' , ['blog' => $blog->id]) }}" aria-label="" class="mt-3 inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Lire plus</a>--}}
-
+                    </h2>
+                    <p class="mb-4 text-base leading-7 text-gray-400">
+                        {{ $blog->content }}
+                    </p>
+                    <a class="flex items-center text-sm font-semibold" href="{{   $blog = route('readBlog', ['id' => $blog->id]) }}">
+                        <div class="flex items-center px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600">
+                            More Details
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
+                                 class="ml-1" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                        </div>
+                    </a>
                 </div>
             </div>
-        @endforeach
+            @endforeach
+        </div>
     </div>
- 
 
 </section>
 
 @include('layouts.footer')
- 
-</div>
- 
