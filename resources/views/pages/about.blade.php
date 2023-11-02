@@ -4,17 +4,21 @@
     <div class="px-4 py-16 mx-auto  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div class="w-full mt-10 px-4">
             <div >
-                <br>
-                <h1 class="font-sans font-bold  text-4xl mb-5  ">
-                    À propos
-                </h1>
+                <div class="flex flex-wrap  text-left mb-12">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <!-- Header -->
+                        <h1 class="text-gray-900 text-4xl font-bold mb-4">
+                            À propos
+                        </h1>
+                        <!-- Description -->
+                        <p class="text-gray-700 text-lg font-light">
+                            L'équipe de développement de SafetyIO est toujours heureuse de recevoir des commentaires et des suggestions des utilisateurs
 
-                <div class="flex mx-auto mt-1" >
-                    <span class="inline-block w-24 h-1 bg-blue-500 rounded-full "></span>
-                    <span class="inline-block w-8 h-1 mx-1 bg-blue-500 rounded-full"></span>
-                    <span class="inline-block w-4 h-1 bg-blue-500 rounded-full"></span>
+                        </p>
+                    </div>
                 </div>
             </div>
+
         </div>
 
         <div class="grid gap-6 row-gap-10 lg:grid-cols-2 mt-5">
