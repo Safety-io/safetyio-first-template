@@ -103,7 +103,8 @@
                 <div class="px-4 py-4 lg:px-0">
                     <a href="#"
                        class="px-2.5  py-0.5 mr-2 text-xs text-gray-700 bg-gray-200 rounded hover:bg-blue-600 dark:bg-gray-700 dark:text-gray-400 hover:text-gray-100 dark:hover:bg-gray-800">
-                        Report</a>
+                        {{ $blog->read_time }} min de lecture
+                    </a>
                     <a href="#">
                         <h2
                             class="mt-3 mb-3 text-xl font-semibold text-gray-600 hover:text-blue-600 dark:text-gray-400">
