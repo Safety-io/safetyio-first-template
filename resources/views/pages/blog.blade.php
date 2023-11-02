@@ -6,7 +6,7 @@
             <div class="w-full lg:w-6/12 px-4">
                 <!-- Header -->
                 <h1 class="text-gray-900 text-4xl font-bold mb-4">
-                    Nos blogs
+                    Nos articles de blog blogs
                 </h1>
                 <!-- Description -->
                 <p class="text-gray-700 text-lg font-light">
