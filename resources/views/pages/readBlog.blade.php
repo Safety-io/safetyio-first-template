@@ -113,7 +113,7 @@
                     <p class="mb-3 text-sm text-gray-500 dark:text-gray-400">
                         “{{ substr($blog->content, 0, 70)." ..." }}”.
                     </p>
-                    <a class="flex items-center text-sm font-semibold" href="{{   $blog = route('readBlog', ['id' => $blog->id]) }}">
+                    <a class="flex items-center text-sm font-semibold" href="{{ route('readBlog', ['id' => $blog->id]) }}">
                         <div class="flex items-center px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600">
                             More Details
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
