@@ -2,21 +2,18 @@
 
 <section class="flex items-center  ">
     <div class="p-4 mt-10 mx-auto max-w-7xl">
-        <div class="w-full mt-10 px-4">
-            <div >
-                <br>
-                <h1 class="font-sans font-bold  text-4xl mb-5  ">
-                    À propos
+        <div class="flex flex-wrap justify-center text-center mt-12 mb-12">
+            <div class="w-full lg:w-6/12 px-4">
+                <!-- Header -->
+                <h1 class="text-gray-900 text-4xl font-bold mb-4">
+                    Nos blogs
                 </h1>
-
-                <div class="flex mx-auto mt-1" >
-                    <span class="inline-block w-24 h-1 bg-blue-500 rounded-full "></span>
-                    <span class="inline-block w-8 h-1 mx-1 bg-blue-500 rounded-full"></span>
-                    <span class="inline-block w-4 h-1 bg-blue-500 rounded-full"></span>
-                </div>
+                <!-- Description -->
+                <p class="text-gray-700 text-lg font-light">
+                    Nous vous permettons de rester informés de toutes les dernières nouveautés technologiques et de partager nos connaissances avec vous.
+                </p>
             </div>
         </div>
-
         <div class="grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4  sm:grid-cols-2 lg:grid-cols-3">
 
             @foreach($blogs as $blog)
