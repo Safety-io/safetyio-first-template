@@ -7,6 +7,7 @@
                 <!-- Header -->
                 <h1 class="text-gray-900 text-4xl font-bold mb-4">
                     Nos blogs
+
                 </h1>
                 <!-- Description -->
                 <p class="text-gray-700 text-lg font-light">
