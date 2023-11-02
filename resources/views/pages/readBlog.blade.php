@@ -14,7 +14,7 @@
                          class="object-cover w-full rounded-md h-80 lg:h-44">
                 </div>
                 <div class="px-4 py-4 lg:px-0">
-                    <span>{{ $blog->auteur }}</span>
+{{--                    <span>{{ $blog->auteur }}</span>--}}
                     <a href="#">
                         <h2
                             class="mt-3 mb-3 text-xl font-semibold text-black  hover:text-blue-600  ">
