@@ -71,4 +71,7 @@
 
 </section>
 
+
+
+
 @include('layouts.footer')

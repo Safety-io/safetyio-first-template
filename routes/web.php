@@ -17,6 +17,9 @@ use App\Http\Controllers\BlogController;
 Route::get('/', function () {
     return view('pages.index');
 })->name('home');
+Route::get('/blogs', function () {
+    return view('pages.blogs');
+})->name('blogs');
 Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');
