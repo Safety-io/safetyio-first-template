@@ -1,5 +1,11 @@
 @include('layouts.app')
-
+ 
+<section class="bg-white  ">
+    <section class="flex items-center py-10   lg:py-24 font-poppins   ">
+        <div class="justify-center flex-1 max-w-4xl px-4 py-4 mx-auto text-left lg:py-10 ">
+            <div class="mb-10 text-center">
+                <h1 class="text-3xl font-bold capitalize text-black">Plus D'articles</h1>
+ 
 <section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto">
 
@@ -40,6 +46,7 @@
                     <span class="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
                     <span class="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
                 </div>
+ 
             </div>
             {{--            <div class="flex justify-between mt-8 md:mt-0">--}}
             {{--                <button id="left" title="left arrow" class="p-2 mx-3 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 dark:text-gray-200 dark:hover:bg-gray-800 dark:border-gray-700 hover:bg-gray-100">--}}
@@ -63,8 +70,24 @@
                     <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl lg:w-96">
                         {{ substr($blog->title, 0, 20) . " ..." }}
                     </h1>
-
+ 
+            <div class="grid grid-cols-1 bg-secondary  mb-6 lg:grid-cols-[1fr,70%]   gap-4">
+                <div>
+                    <img src="{{ $blog->image }} " alt=""
+                         class="object-cover w-full rounded-md h-80 lg:h-44">
+                </div>
+                <div class="px-4 py-4 lg:px-0">
+                    <span>{{ $blog->auteur }}</span>
+                    <a href="#">
+                        <h2
+                            class="mt-3 mb-3 text-xl font-semibold text-black  hover:text-blue-600  ">
+                            {{ substr($blog->title, 0, 20) . " ..." }}
+                        </h2>
+                    </a>
+                    <p class="mb-3 text-sm text-black ">
+ 
                     <p class="leading-loose text-gray-500 dark:text-gray-400">
+ 
                         “{{ substr($blog->content, 0, 70)." ..." }}”.
                     </p>
 
@@ -88,4 +111,4 @@
         </section>
     </div>
 </section>
-
+@include('layouts.footer')

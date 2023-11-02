@@ -1,5 +1,23 @@
 @include('layouts.app')
+ 
+<section class="flex items-center  ">
+    <div class="p-4 mt-10 mx-auto max-w-7xl">
+        <div class="flex flex-wrap justify-center text-center mt-12 mb-12">
+            <div class="w-full lg:w-6/12 px-4">
+                <!-- Header -->
+                <h1 class="text-gray-900 text-4xl font-bold mb-4">
+                    Nos blogs
 
+                </h1>
+                <!-- Description -->
+
+                <p class="text-gray-700 text-lg font-light">
+                    Nous vous permettons de rester informés de toutes les dernières nouveautés technologiques et de partager nos connaissances avec vous.
+                </p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4  sm:grid-cols-2 lg:grid-cols-3">
+ 
 <div class="px-4  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
     <div class="grid mt-5 gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
         @foreach($blogs as $blog)
@@ -16,6 +34,7 @@
                     </p>
                     <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
                         <a href="/" class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700" aria-label="Category" title="traveling">{{ $blog->created_at = date('Y-m-d', strtotime($blog->created_at)) }}</a>
+ 
 
                         <span class="text-gray-600 ml-12">{{ $blog->read_time }} min de lecture</span>
 
@@ -41,4 +60,11 @@
             </div>
         @endforeach
     </div>
+ 
+
+</section>
+
+@include('layouts.footer')
+ 
 </div>
+ 
