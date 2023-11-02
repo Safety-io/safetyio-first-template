@@ -10,6 +10,7 @@
 
                 </h1>
                 <!-- Description -->
+
                 <p class="text-gray-700 text-lg font-light">
                     Nous vous permettons de rester informés de toutes les dernières nouveautés technologiques et de partager nos connaissances avec vous.
                 </p>
