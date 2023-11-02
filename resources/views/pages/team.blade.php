@@ -1,7 +1,6 @@
 @extends("layouts.app")
 @section('title', 'Team')
 @section('content')
-
 <link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css">
 
 <!-- Page Container -->
@@ -49,7 +48,7 @@
                                 </div>
 
                                 <!-- Social Icons -->
-                                <div class="flex items-center justify-center opacity-50 hover:opacity-100
+                                <div class="flex items-center justify-center  hover:opacity-100
                                 transition-opacity duration-300">
                                     <!-- Linkedin -->
                                     <a href="#" class="flex rounded-full hover:bg-indigo-50 h-10 w-10">
@@ -57,7 +56,7 @@
                                     </a>
                                     <!-- github -->
                                     <a href="{{ config('app.paul.github') }}" class="flex rounded-full hover:bg-black-50  h-10 w-10">
-                                        <i class="mdi mdi-github text-black-700 mx-auto mt-2"></i>
+                                        <i class="mdi mdi-github  mx-auto mt-2"></i>
                                     </a>
                                     <!-- whatsapp -->
                                     <a href="{{ config('app.paul.whatsapp') }}" class="flex rounded-full hover:bg-green-50 h-10 w-10">
@@ -74,6 +73,7 @@
                             <!-- Avatar -->
                             <a href="#" class="mx-auto">
                                 <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+{{--                                     src="{{ asset('jlk1.jpeg') }}">--}}
                                      src="https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80">
                             </a>
 
@@ -90,7 +90,7 @@
                                 </div>
 
                                 <!-- Social Icons -->
-                                <div class="flex items-center justify-center opacity-50 hover:opacity-100
+                                <div class="flex items-center justify-center hover:opacity-100
                                 transition-opacity duration-300">
                                     <!-- Linkedin -->
                                     <a href="#" class="flex rounded-full hover:bg-indigo-50 h-10 w-10">
@@ -115,6 +115,7 @@
                             <!-- Avatar -->
                             <a href="#" class="mx-auto">
                                 <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+
                                      src="https://images.unsplash.com/photo-1634193295627-1cdddf751ebf?fit=clamp&w=400&h=400&q=80" alt="photo">
                             </a>
 
@@ -131,7 +132,7 @@
                                 </div>
 
                                 <!-- Social Icons -->
-                                <div class="flex items-center justify-center opacity-50 hover:opacity-100
+                                <div class="flex items-center justify-center   hover:opacity-100
                                 transition-opacity duration-300">
                                     <!-- whatsapp -->
                                     <a href="{{ config('app.polly.whatsapp') }}" class="flex rounded-full hover:bg-green-50 h-10 w-10">
@@ -169,7 +170,7 @@
                                 </div>
 
                                 <!-- Social Icons -->
-                                <div class="flex items-center justify-center opacity-50 hover:opacity-100
+                                <div class="flex items-center justify-center   hover:opacity-100
                                 transition-opacity duration-300">
                                     <!-- whatsapp -->
                                     <a href="{{ config('app.rene.whatsapp') }}" class="flex rounded-full hover:bg-green-50 h-10 w-10">
@@ -184,12 +185,64 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Member #5 -->
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <!-- Avatar -->
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                     src="https://images.unsplash.com/photo-1635003913011-95971abba560?fit=clamp&w=400&h=400&q=80">
+                            </a>
+
+                            <!-- Details -->
+                            <div class="text-center mt-6">
+                                <!-- Name -->
+                                <h1 class="text-gray-900 text-xl font-bold mb-1">
+                                    {{ config('app.aris.name') }}
+                                </h1>
+
+                                <!-- Title -->
+                                <div class="text-gray-700 font-light mb-2">
+                                    {{ config('app.aris.title') }}
+                                </div>
+
+                                 <!-- Social Icons -->
+                                <div class="flex items-center justify-center   hover:opacity-100
+                                transition-opacity duration-300">
+
+
+
+                                    <!-- Linkedin -->
+                                    <a href="#" class="flex rounded-full hover:bg-indigo-50 h-10 w-10">
+                                        <i class="mdi mdi-linkedin text-indigo-700 mx-auto mt-2"></i>
+                                    </a>
+                                    <!-- github -->
+                                    <a href="{{ config('app.aris.github') }}" class="flex rounded-full hover:bg-black-90 h-10 w-10">
+                                        <i class="mdi mdi-github text-black-700 mx-auto mt-2"></i>
+                                    </a>
+                                    <!-- whatsapp -->
+                                    <a href="{{ config('app.aris.whatsapp') }}" class="flex rounded-full hover:bg-green-50 h-10 w-10">
+                                        <i class="mdi mdi-whatsapp text-green-400 mx-auto mt-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-    @include('layouts.footer')
+
+@include('layouts.footer')
 @endsection
+
 
