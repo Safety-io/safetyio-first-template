@@ -1,23 +1,28 @@
  <!Doctype html>
+ @include('layouts.app')
 <link href=" {{ asset('style.css')}}" rel="stylesheet">
 
-{{--<div x-show="loaded" x-init="window.addEventListener('DOMContentLoaded', () => {setTimeout(() => loaded = false, 500)})" class="fixed left-0 top-0 z-999999 flex h-screen w-screen items-center justify-center bg-white">--}}
-{{--<div class="h-16 w-16 animate-spin rounded-full border-4 border-solid border-primary border-t-transparent"></div>--}}
-{{--</div>--}}
 
 
 
+<section class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 
-<main>
+    <div class="w-full mt-10 px-4">
+        <div >
+            <div class="flex flex-wrap  text-left mb-12">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h1 class="text-gray-900 text-4xl font-bold mb-4">
+                        Nos articles de blog
+                    </h1>
+                    <!-- Description -->
+                    <p class="text-gray-700 text-lg font-light">
+                        Nous vous permettons de rester informés de toutes les dernières nouveautés technologiques et de partager nos connaissances avec vous.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<section class="pt-34 pb-17.5">
-<div class="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
-<div class="max-w-[770px] mx-auto w-full text-center mb-12.5">
-<h1 class="font-bold text-heading-6 sm:text-heading-4 lg:text-heading-3 text-dark mb-4">
-Nos Blogs
-</h1>
-<p>See all posts we have ever written.</p>
-</div>
+    </div>
 
     <div class="pt-14 border-t border-gray-3">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-11 gap-x-7.5">
@@ -44,8 +49,8 @@ Nos Blogs
                 </div>
             </a>
 
-            <a href="author.html" class="group">
-                <div class="border border-gray-3 rounded-[20px] bg-gray p-5 group-hover:bg-white group-hover:drop-shadow-1 group-hover:-translate-y-2 transition-all">
+            <a href="author.html" class="group ">
+                <div class="border border-gray-3 rounded-[20px] bg-gray p-5 group-hover:bg-white group-hover:drop-shadow-1 group-hover:-translate-y-2 transition-all ">
                     <div class="flex flex-wrap items-center gap-8">
                         <div class="w-25 h-25 rounded-full overflow-hidden">
                             <img src="{{ asset('/images/BlogTri/Innovation-amico.png') }}" alt="user" />
@@ -231,10 +236,7 @@ Next
 </button>
 </div>
 </div>
-</div>
 </section>
-
-</main>
 
 
 
@@ -245,4 +247,5 @@ Next
 </button>
 
 <script defer src=" {{asset ('bundle.js')}}"></script>
+@include('layouts.footer')
 
