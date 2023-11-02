@@ -5,22 +5,25 @@
 
 
 
-<section class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 
-    <div class="w-full mt-10 px-4">
+<main>
+
+<section class="pt-34 pb-17.5">
+<div class="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
         <div >
             <div class="flex flex-wrap  text-left mb-12">
                 <div class="w-full lg:w-6/12 px-4">
                     <h1 class="text-gray-900 text-4xl font-bold mb-4">
-                        Nos articles de blog
+                        Nos articles de blog.
                     </h1>
                     <!-- Description -->
                     <p class="text-gray-700 text-lg font-light">
                         Nous vous permettons de rester informés de toutes les dernières nouveautés technologiques et de partager nos connaissances avec vous.
+
                     </p>
                 </div>
             </div>
-        </div>
+
 
     </div>
 
@@ -49,8 +52,8 @@
                 </div>
             </a>
 
-            <a href="author.html" class="group ">
-                <div class="border border-gray-3 rounded-[20px] bg-gray p-5 group-hover:bg-white group-hover:drop-shadow-1 group-hover:-translate-y-2 transition-all ">
+            <a href="author.html" class="group">
+                <div class="border border-gray-3 rounded-[20px] bg-gray p-5 group-hover:bg-white group-hover:drop-shadow-1 group-hover:-translate-y-2 transition-all">
                     <div class="flex flex-wrap items-center gap-8">
                         <div class="w-25 h-25 rounded-full overflow-hidden">
                             <img src="{{ asset('/images/BlogTri/Innovation-amico.png') }}" alt="user" />
@@ -115,7 +118,7 @@
             </a>
         </div>
     </div>
-<div class="grid mt-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-11 gap-x-7.5">
+<div class="grid mt-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pt-14 border-t border-gray-3  gap-y-11 gap-x-7.5">
 
 <div class="group">
 <div class="mb-6 overflow-hidden rounded-[10px] transition-all group-hover:scale-105">
@@ -236,7 +239,10 @@ Next
 </button>
 </div>
 </div>
+</div>
 </section>
+
+</main>
 
 
 
@@ -247,5 +253,4 @@ Next
 </button>
 
 <script defer src=" {{asset ('bundle.js')}}"></script>
-@include('layouts.footer')
 
