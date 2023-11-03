@@ -17,9 +17,10 @@ class BlogController extends Controller
      */
     public function index(): View | Paginator
     {
-        $blogs = Blog::all()->sortDesc();
-        $blogs = Blog::paginate(10);
-        return view('pages.blog', ['blogs' => $blogs]);
+//        $blogs = Blog::all()->sortDesc();
+//        $blogs = Blog::paginate(10);
+//        return view('pages.blog', ['blogs' => $blogs]);
+        return view('pages.blog');
 
     }
 
