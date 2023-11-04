@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\contactMail;
 use App\Models\Blog;
+use App\Models\Category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
@@ -19,7 +20,15 @@ class BlogController extends Controller
     {
         $blogs = Blog::all()->sortDesc();
         $blogs = Blog::paginate(10);
-        return view('pages.blog', ['blogs' => $blogs]);
+        $categories = Category::all();
+
+        return view(
+            'pages.blog',
+            [
+                'blogs' => $blogs,
+                'categories' => $categories
+            ]
+        );
 
     }
 
@@ -46,7 +55,14 @@ class BlogController extends Controller
     {
         $five_latest = DB::table('blogs')->latest()->limit(5)->get();
         $blog = DB::table('blogs')->find($id);
-        return view('pages.readBlog', ['blog' => $blog, 'latest' => $five_latest]);
+
+        return view(
+            'pages.readBlog',
+            [
+                'blogs' => $blog,
+                'latest' => $five_latest,
+            ]
+        );
     }
 
     /**
