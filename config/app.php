@@ -17,7 +17,44 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-
+//    team config
+    'paul' => [
+        'name' => 'Paul Kafanda',
+        'title' => 'CEO & Co-Founder',
+        'whatsapp' => 'https://wa.me/+243906340486',
+        'linkedin' => ' ',
+        'github' => 'https://github.com/paulkaf84',
+    ],
+    'jlk' => [
+        'name' => 'Jean Luc Kawel',
+        'title' => 'CTO & Co-Founder',
+        'whatsapp' => 'https://wa.me/+2430974453545',
+        'linkedin' => ' ',
+        'github' => 'https://github.com/jeanluckawel',
+    ],
+    'rene' => [
+        'name' => 'René Suze',
+        'title' => 'Graphic Designer',
+        'whatsapp' => 'https://wa.me/+243970451511',
+        'instagram' => ' ',
+    ],
+    'polly' =>[
+        'name' => 'Polly Ilunga',
+        'title' => 'Ui/Ux Designer',
+        'whatsapp' => 'https://wa.me/+243991118482',
+        'instagram' => ' ',
+    ],
+    'aris' => [
+        'name' => 'Aristote Kabelu',
+        'title' => 'IT & Developer Web',
+        'whatsapp' => 'https://wa.me/+243977275713',
+        'linkedin' => ' ',
+        'github' => 'https://github.com/AristoteKABELU',
+    ],
+    'safety' => [
+        'mail' => '',
+        'x' => ''
+    ],
     /*
     |--------------------------------------------------------------------------
     | Application Environment
