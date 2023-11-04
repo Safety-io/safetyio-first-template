@@ -37,3 +37,4 @@ Route::get('/condition', function () {
 Route::get('/blog',[BlogController::class, 'index'])->name('pages.blog');
 Route::post('/contact',[BlogController::class,'send_mail'])->name('contact');
 Route::get('/blog/{id}',[BlogController::class,'show'])->name('readBlog');
+Route::get('/blog/category/{name}',[BlogController::class,'filterByCategory'])->name('blog.category');
