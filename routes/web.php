@@ -17,6 +17,9 @@ use App\Http\Controllers\BlogController;
 Route::get('/', function () {
     return view('pages.index');
 })->name('home');
+Route::get('/blogs', function () {
+    return view('pages.blogs');
+})->name('blogs');
 Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');
@@ -34,3 +37,4 @@ Route::get('/condition', function () {
 Route::get('/blog',[BlogController::class, 'index'])->name('pages.blog');
 Route::post('/contact',[BlogController::class,'send_mail'])->name('contact');
 Route::get('/blog/{id}',[BlogController::class,'show'])->name('readBlog');
+Route::get('/blog/category/{name}',[BlogController::class,'filterByCategory'])->name('blog.category');
