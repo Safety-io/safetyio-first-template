@@ -39,7 +39,14 @@ class BlogResource extends Resource
                         ->autofocus()
                         ->required()
                         ->placeholder('Enter author'),
-
+                    Forms\Components\FileUpload::make('picture')
+                        ->image()
+                        ->maxSize(1024)
+                        ->disk('public'),
+                    Forms\Components\TextInput::make('grade')
+                        ->autofocus()
+                        ->required()
+                        ->placeholder('Enter grade'),
             ]);
     }
 
