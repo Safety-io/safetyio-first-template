@@ -206,7 +206,7 @@
                     <div question class="font-montserrat font-medium mr-auto">
                         Pourquoi travailler avec SafetyIo ?
                     </div>
-                    <img src="{{ asset("assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
+                    <img src="{{ asset("assets1/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
                 </div>
                 <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
                     SafetyIo est une entreprise leader dans le domaine de la sécurité informatique. Elle propose une
@@ -221,7 +221,7 @@
                     <div question class="font-montserrat font-medium mr-auto">
                         Nos produits et services
                     </div>
-                    <img src="{{ asset("assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
+                    <img src="{{ asset("assets1/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
                 </div>
                 <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
                     Nous proposons une gamme de solutions qui peuvent être adaptées à vos besoins spécifiques voir nos
@@ -235,7 +235,7 @@
                     <div question class="font-montserrat font-medium mr-auto">
                         Service client
                     </div>
-                    <img src="{{ asset("assets/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
+                    <img src="{{ asset("assets1/logos/CaretRight.svg")}}" alt="" class="transform transition-transform"/>
                 </div>
                 <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
                     Notre équipe d'experts est disponible pour vous aider à choisir la solution qui vous convient le

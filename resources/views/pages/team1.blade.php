@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 
 
-<!-- Mirrored from thepixelcurve.com/html/techwix/techwix/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 16:41:14 GMT -->
+<!-- Mirrored from thepixelcurve.com/html/techwix/techwix/team1.blade.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 16:41:14 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -11,28 +11,28 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets1/images/favicon.png">
 
     <!-- CSS
 	============================================ -->
 
     <!-- Icon Font CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/all.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/flaticon.css">
+    <link rel="stylesheet" href="../../assets1/css/plugins/all.min.css">
+    <link rel="stylesheet" href="../../assets1/css/plugins/flaticon.css">
 
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/aos.css">
-    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="../../assets1/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets1/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../../assets1/css/plugins/aos.css">
+    <link rel="stylesheet" href="../../assets1/css/plugins/magnific-popup.css">
 
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../../assets1/css/style.css">
 
 
     <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
-    <!-- <link rel="stylesheet" href="assets/css/vendor/plugins.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css"> -->
+    <!-- <link rel="stylesheet" href="assets1/css/vendor/plugins.min.css">
+    <link rel="stylesheet" href="assets1/css/style.min.css"> -->
 
 </head>
 
@@ -59,43 +59,43 @@
                 <div class="header-wrap">
 
                     <div class="header-logo">
-                        <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                        <a href="../template/index.html"><img src="../../assets1/images/logo.png" alt=""></a>
                     </div>
 
                     <div class="header-menu d-none d-lg-block">
                         <ul class="main-menu">
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="../template/index.html">Home</a>
                                 <ul class="sub-menu">
-                                    <li><a href="index.html">Home Main</a></li>
-                                    <li><a href="index-2.html">AI Solutions</a></li>
-                                    <li><a href="index-3.html">Cyber Security</a></li>
-                                    <li><a href="index-4.html">IT Solutions</a></li>
-                                    <li><a href="index-5.html">Software Company</a></li>
-                                    <li><a href="index-6.html">IT Agency</a></li>
+                                    <li><a href="../template/index.html">Home Main</a></li>
+                                    <li><a href="../template/index-2.html">AI Solutions</a></li>
+                                    <li><a href="../template/index-3.html">Cyber Security</a></li>
+                                    <li><a href="../template/index-4.html">IT Solutions</a></li>
+                                    <li><a href="../template/index-5.html">Software Company</a></li>
+                                    <li><a href="../template/index-6.html">IT Agency</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="about.html">Aboute Us</a>
+                                <a href="../template/about.html">Aboute Us</a>
                             </li>
                             <li class="active-menu"><a href="#">Pages</a>
                                 <ul class="sub-menu">
                                     <li class="active"><a href="team.html">Our Team</a></li>
-                                    <li><a href="service.html">Service</a></li>
-                                    <li><a href="choose-us.html">Why Choose Us</a></li>
-                                    <li><a href="testimonial.html">Testimonial</a></li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="login-register.html">Login & Register</a></li>
+                                    <li><a href="../template/service.html">Service</a></li>
+                                    <li><a href="../template/choose-us.html">Why Choose Us</a></li>
+                                    <li><a href="../template/testimonial.html">Testimonial</a></li>
+                                    <li><a href="../template/pricing.html">Pricing</a></li>
+                                    <li><a href="../template/login-register.html">Login & Register</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Blog</a>
                                 <ul class="sub-menu">
-                                    <li><a href="blog.html">Blog Grid</a></li>
-                                    <li><a href="blog-standard.html">Blog List</a></li>
-                                    <li><a href="blog-details.html">Blog Single</a></li>
+                                    <li><a href="../template/blog.html">Blog Grid</a></li>
+                                    <li><a href="../template/blog-standard.html">Blog List</a></li>
+                                    <li><a href="../template/blog-details.html">Blog Single</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="../template/contact.html">Contact</a></li>
                         </ul>
                     </div>
 
@@ -114,7 +114,7 @@
                                     <!-- Single Cart Item Start -->
                                     <div class="single-cart-item">
                                         <div class="item-image">
-                                            <img src="assets/images/shop-cart-1.jpg" alt="cart">
+                                            <img src="../../assets1/images/shop-cart-1.jpg" alt="cart">
                                         </div>
                                         <div class="item-content">
                                             <h4 class="title"><a href="#">Apple Iphone X</a></h4>
@@ -126,7 +126,7 @@
                                     <!-- Single Cart Item Start -->
                                     <div class="single-cart-item">
                                         <div class="item-image">
-                                            <img src="assets/images/shop-cart-2.jpg" alt="cart">
+                                            <img src="../../assets1/images/shop-cart-2.jpg" alt="cart">
                                         </div>
                                         <div class="item-content">
                                             <h4 class="title"><a href="#">Sony Xperia Tablet</a></h4>
@@ -138,7 +138,7 @@
                                     <!-- Single Cart Item Start -->
                                     <div class="single-cart-item">
                                         <div class="item-image">
-                                            <img src="assets/images/shop-cart-3.jpg" alt="cart">
+                                            <img src="../../assets1/images/shop-cart-3.jpg" alt="cart">
                                         </div>
                                         <div class="item-content">
                                             <h4 class="title"><a href="#">Camera Digital</a></h4>
@@ -184,7 +184,7 @@
                         <!-- Header Search End -->
 
                         <div class="header-btn d-none d-xl-block">
-                            <a class="btn" href="login-register.html">Get Started</a>
+                            <a class="btn" href="../template/login-register.html">Get Started</a>
                         </div>
                         <!-- Header Toggle Start -->
                         <div class="header-toggle d-lg-none">
@@ -210,7 +210,7 @@
             <div class="offcanvas-header">
                 <!-- Offcanvas Logo Start -->
                 <div class="offcanvas-logo">
-                    <a href="index.html"><img src="assets/images/logo-white.png" alt=""></a>
+                    <a href="../template/index.html"><img src="../../assets1/images/logo-white.png" alt=""></a>
                 </div>
                 <!-- Offcanvas Logo End -->
                 <button type="button" class="close-btn" data-bs-dismiss="offcanvas"><i class="flaticon-close"></i></button>
@@ -221,37 +221,37 @@
                 <div class="offcanvas-menu">
                     <ul class="main-menu">
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="../template/index.html">Home</a>
                             <ul class="sub-menu">
-                                <li><a href="index.html">Home Main</a></li>
-                                <li><a href="index-2.html">AI Solutions</a></li>
-                                <li><a href="index-3.html">Cyber Security</a></li>
-                                <li><a href="index-4.html">IT Solutions</a></li>
-                                <li><a href="index-5.html">Software Company</a></li>
-                                <li><a href="index-6.html">IT Agency</a></li>
+                                <li><a href="../template/index.html">Home Main</a></li>
+                                <li><a href="../template/index-2.html">AI Solutions</a></li>
+                                <li><a href="../template/index-3.html">Cyber Security</a></li>
+                                <li><a href="../template/index-4.html">IT Solutions</a></li>
+                                <li><a href="../template/index-5.html">Software Company</a></li>
+                                <li><a href="../template/index-6.html">IT Agency</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="about.html">Aboute Us</a>
+                            <a href="../template/about.html">Aboute Us</a>
                         </li>
                         <li class="active-menu"><a href="#">Pages</a>
                             <ul class="sub-menu">
                                 <li class="active"><a href="team.html">Our Team</a></li>
-                                <li><a href="service.html">Service</a></li>
-                                <li><a href="choose-us.html">Why Choose Us</a></li>
-                                <li><a href="testimonial.html">Testimonial</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="login-register.html">Login & Register</a></li>
+                                <li><a href="../template/service.html">Service</a></li>
+                                <li><a href="../template/choose-us.html">Why Choose Us</a></li>
+                                <li><a href="../template/testimonial.html">Testimonial</a></li>
+                                <li><a href="../template/pricing.html">Pricing</a></li>
+                                <li><a href="../template/login-register.html">Login & Register</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Blog</a>
                             <ul class="sub-menu">
-                                <li><a href="blog.html">Blog Grid</a></li>
-                                <li><a href="blog-standard.html">Blog List</a></li>
-                                <li><a href="blog-details.html">Blog Single</a></li>
+                                <li><a href="../template/blog.html">Blog Grid</a></li>
+                                <li><a href="../template/blog-standard.html">Blog List</a></li>
+                                <li><a href="../template/blog-details.html">Blog Single</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="../template/contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -261,7 +261,7 @@
 
 
         <!-- Page Banner Start -->
-        <div class="section page-banner-section" style="background-image: url(assets/images/bg/page-banner.jpg);">
+        <div class="section page-banner-section" style="background-image: url(../../assets1/images/bg/page-banner.jpg);">
             <div class="shape-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="944px" height="894px">
                     <defs>
@@ -328,7 +328,7 @@
                             <!-- Single Team Start -->
                             <div class="single-team">
                                 <div class="team-img">
-                                    <a href="team.html"><img src="assets/images/team/team-1.jpg" alt=""></a>
+                                    <a href="team.html"><img src="../../assets1/images/team/team-1.jpg" alt=""></a>
                                 </div>
                                 <div class="team-content">
                                     <h3 class="name"><a href="#">Andrew <br> Max Fetcher</a></h3>
@@ -349,7 +349,7 @@
                             <!-- Single Team Start -->
                             <div class="single-team">
                                 <div class="team-img">
-                                    <a href="team.html"><img src="assets/images/team/team-2.jpg" alt=""></a>
+                                    <a href="team.html"><img src="../../assets1/images/team/team-2.jpg" alt=""></a>
                                 </div>
                                 <div class="team-content">
                                     <h3 class="name"><a href="#">Arnold <br> human</a></h3>
@@ -369,7 +369,7 @@
                             <!-- Single Team Start -->
                             <div class="single-team">
                                 <div class="team-img">
-                                    <a href="team.html"><img src="assets/images/team/team-3.jpg" alt=""></a>
+                                    <a href="team.html"><img src="../../assets1/images/team/team-3.jpg" alt=""></a>
                                 </div>
                                 <div class="team-content">
                                     <h3 class="name"><a href="#">Mike <br> Holder</a></h3>
@@ -390,7 +390,7 @@
                             <!-- Single Team Start -->
                             <div class="single-team">
                                 <div class="team-img">
-                                    <a href="team.html"><img src="assets/images/team/team-4.jpg" alt=""></a>
+                                    <a href="team.html"><img src="../../assets1/images/team/team-4.jpg" alt=""></a>
                                 </div>
                                 <div class="team-content">
                                     <h3 class="name"><a href="#">Joakim <br> Ken</a></h3>
@@ -411,7 +411,7 @@
                             <!-- Single Team Start -->
                             <div class="single-team">
                                 <div class="team-img">
-                                    <a href="team.html"><img src="assets/images/team/team-1.jpg" alt=""></a>
+                                    <a href="team.html"><img src="../../assets1/images/team/team-1.jpg" alt=""></a>
                                 </div>
                                 <div class="team-content">
                                     <h3 class="name"><a href="#">Michael <br> Frater</a></h3>
@@ -432,10 +432,10 @@
                             <!-- Single Team Start -->
                             <div class="single-team">
                                 <div class="team-img">
-                                    <a href="team.html"><img src="assets/images/team/team-2.jpg" alt=""></a>
+                                    <a href="team.html"><img src="../../assets1/images/team/team-2.jpg" alt=""></a>
                                 </div>
                                 <div class="team-content">
-                                    <h3 class="name"><a href="#">Kevin <br> Perry</a></h3> 
+                                    <h3 class="name"><a href="#">Kevin <br> Perry</a></h3>
                                     <span class="designation">CEO, techwix</span>
                                     <div class="team-social">
                                         <ul class="social">
@@ -452,10 +452,10 @@
                             <!-- Single Team Start -->
                             <div class="single-team">
                                 <div class="team-img">
-                                    <a href="team.html"><img src="assets/images/team/team-3.jpg" alt=""></a>
+                                    <a href="team.html"><img src="../../assets1/images/team/team-3.jpg" alt=""></a>
                                 </div>
                                 <div class="team-content">
-                                    <h3 class="name"><a href="#">Michael <br> Frater</a></h3> 
+                                    <h3 class="name"><a href="#">Michael <br> Frater</a></h3>
                                     <span class="designation">CEO, techwix</span>
                                     <div class="team-social">
                                         <ul class="social">
@@ -473,10 +473,10 @@
                             <!-- Single Team Start -->
                             <div class="single-team">
                                 <div class="team-img">
-                                    <a href="team.html"><img src="assets/images/team/team-4.jpg" alt=""></a>
+                                    <a href="team.html"><img src="../../assets1/images/team/team-4.jpg" alt=""></a>
                                 </div>
                                 <div class="team-content">
-                                    <h3 class="name"><a href="#">Steven <br> Smith</a></h3> 
+                                    <h3 class="name"><a href="#">Steven <br> Smith</a></h3>
                                     <span class="designation">CEO, techwix</span>
                                     <div class="team-social">
                                         <ul class="social">
@@ -500,7 +500,7 @@
 
 
         <!-- Footer Section Start -->
-        <div class="section footer-section" style="background-image: url(assets/images/bg/footer-bg.jpg);">
+        <div class="section footer-section" style="background-image: url(../../assets1/images/bg/footer-bg.jpg);">
 
             <div class="container">
                 <!-- Footer Widget Wrap Start -->
@@ -509,7 +509,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <!-- Footer Widget Start -->
                             <div class="footer-widget-about">
-                                <a class="footer-logo" href="index.html"><img src="assets/images/logo-white.png" alt="Logo"></a>
+                                <a class="footer-logo" href="../template/index.html"><img src="../../assets1/images/logo-white.png" alt="Logo"></a>
                                 <p>Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent.</p>
                                 <div class="footer-social">
                                     <ul class="social">
@@ -626,31 +626,31 @@
 
     <!-- JS
     ============================================ -->
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="../../assets1/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../assets1/js/vendor/modernizr-3.11.2.min.js"></script>
 
     <!-- Bootstrap JS -->
-    <script src="assets/js/plugins/popper.min.js"></script>
-    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <script src="../../assets1/js/plugins/popper.min.js"></script>
+    <script src="../../assets1/js/plugins/bootstrap.min.js"></script>
 
     <!-- Plugins JS -->
-    <script src="assets/js/plugins/swiper-bundle.min.js"></script>
-    <script src="assets/js/plugins/aos.js"></script>
-    <script src="assets/js/plugins/waypoints.min.js"></script>
-    <script src="assets/js/plugins/back-to-top.js"></script>
-    <script src="assets/js/plugins/jquery.counterup.min.js"></script>
-    <script src="assets/js/plugins/appear.min.js"></script>
-    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="../../assets1/js/plugins/swiper-bundle.min.js"></script>
+    <script src="../../assets1/js/plugins/aos.js"></script>
+    <script src="../../assets1/js/plugins/waypoints.min.js"></script>
+    <script src="../../assets1/js/plugins/back-to-top.js"></script>
+    <script src="../../assets1/js/plugins/jquery.counterup.min.js"></script>
+    <script src="../../assets1/js/plugins/appear.min.js"></script>
+    <script src="../../assets1/js/plugins/jquery.magnific-popup.min.js"></script>
 
 
     <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
 
 
     <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="../../assets1/js/main.js"></script>
 
 </body>
 
 
-<!-- Mirrored from thepixelcurve.com/html/techwix/techwix/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 16:41:14 GMT -->
+<!-- Mirrored from thepixelcurve.com/html/techwix/techwix/team1.blade.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 16:41:14 GMT -->
 </html>
