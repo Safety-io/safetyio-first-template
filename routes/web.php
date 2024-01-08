@@ -23,6 +23,12 @@ Route::get('/blogs', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');
+Route::get('/team1', function () {
+    return view('pages.team1');
+})->name('team1');
+Route::get('/home', function () {
+    return view('pages.home');
+})->name('home');
 Route::get('/team', function () {
     return view('pages.team');
 })->name('team');

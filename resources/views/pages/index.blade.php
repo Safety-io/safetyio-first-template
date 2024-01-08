@@ -14,6 +14,13 @@
                     <p class="text-base text-gray-700 md:text-lg">
                         Nous vous proposons des services de maintenance de site, de création d'affiches et de
                         sécurisation de réseau.
+
+                        @php
+                        $created = '2023';
+                        $current = date('Y');
+                        $interval = $current - $created;
+                        echo $interval;
+                        @endphp
                     </p>
                 </div>
                 <div class="font-montserrat mb-5">
