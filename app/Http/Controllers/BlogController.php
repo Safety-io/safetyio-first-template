@@ -155,6 +155,7 @@ class BlogController extends Controller
                 $background_color = "bg-purple/[0.08]";
                 $text_color = "text-purple-500";
                 break;
+
             }
             case "Design": {
                 $background_color = "bg-cyan/[0.08]";
